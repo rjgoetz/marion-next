@@ -12,7 +12,9 @@ const MiddleNav = ({ title, active, links }) => {
       } transition-max-height duration-500 overflow-hidden mb-8 md:mb-12 lg:max-h-full`}
     >
       <div className="h-full flex justify-between items-center mb-2 border-b border-brown py-2 lg:block lg:border-0 lg:mb-0">
-        <h3 className="lg:border-b lg:border-brown lg:mb-4">{title}</h3>
+        <h3 className="mb-0 text-black lg:border-b lg:border-brown lg:mb-4">
+          {title}
+        </h3>
         <button onClick={() => setIsOpen(!isOpen)} className="lg:hidden">
           <svg
             className={`text-black w-6 h-6 inline-block stroke-1 ${
@@ -34,7 +36,7 @@ const MiddleNav = ({ title, active, links }) => {
       <ul className="list-none pl-0 leading-loose">
         {links.map((link) => {
           return (
-            <li>
+            <li className="mb-0">
               <Link href={link.href}>
                 <a
                   className={`${

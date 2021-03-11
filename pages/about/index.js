@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Image from 'next/image';
-import Layout from '../components/Layout';
-import { CompanyNav } from '../components/MiddleNav';
+import Layout from '../../components/Layout';
+import { CompanyNav } from '../../components/MiddleNav';
 
 export default function About() {
   return (
@@ -54,7 +54,7 @@ export default function About() {
 
                 <div className="h-1 border-b border-brown mb-8"></div>
 
-                <h3 className="mb-2 text-green">Contact Information</h3>
+                <h3 className="mb-2">Contact Information</h3>
                 <div className="sm:flex">
                   <div className="mb-4 sm:w-1/2">
                     <p className="font-normal mb-0">Marion Zoological</p>

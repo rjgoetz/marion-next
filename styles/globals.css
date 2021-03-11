@@ -18,7 +18,7 @@
   }
 
   h3 {
-    @apply font-normal text-lg;
+    @apply font-normal text-green text-lg mb-2;
   }
 
   p {
@@ -32,6 +32,10 @@
 
   ul {
     @apply list-square;
+  }
+
+  li {
+    @apply mb-2;
   }
 
   ol {
@@ -48,5 +52,9 @@
 
   button {
     @apply focus:outline-green;
+  }
+
+  .top-nav li {
+    @apply mb-0;
   }
 }

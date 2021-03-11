@@ -10,7 +10,7 @@ export default function Header() {
   };
 
   return (
-    <header className="relative flex justify-between">
+    <header className="top-nav relative flex justify-between">
       <div className="p-3 w-5/6 flex items-center sm:px-8 sm:py-6 md:w-9/12 lg:w-6/12">
         <Link href="/">
           <a>
@@ -30,7 +30,7 @@ export default function Header() {
         } lg:hidden`}
       ></div>
 
-      <div className="w-1/6 bg-beige flex justify-center items-center md:w-2/12 lg:w-6/12 lg:bg-transparent xl:w-5/12">
+      <div className="w-1/6 bg-beige flex justify-center items-center md:w-2/12 lg:w-6/12 lg:bg-transparent 2xl:w-5/12">
         <button className="w-6 h-6 my-3 lg:hidden" onClick={toggleNav}>
           <svg
             className="text-brown"
