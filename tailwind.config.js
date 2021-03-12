@@ -12,6 +12,7 @@ module.exports = {
         DEFAULT: '#4f943e',
         dark: colors.green[800],
       },
+      red: colors.red[500],
       transparent: 'transparent',
       white: '#fff',
     },
@@ -20,7 +21,6 @@ module.exports = {
       padding: {
         DEFAULT: '1rem',
         sm: '2rem',
-        // xl: '4rem',
       },
     },
     fontFamily: {

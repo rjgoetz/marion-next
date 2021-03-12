@@ -21,6 +21,10 @@
     @apply font-normal text-green text-lg mb-2;
   }
 
+  h4 {
+    @apply font-normal;
+  }
+
   p {
     @apply mb-4;
   }

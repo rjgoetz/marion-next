@@ -1,8 +1,9 @@
 import { useState } from 'react';
 import PropTypes from 'prop-types';
 import Link from 'next/link';
+import PDFLink from './PDFLink';
 
-const MiddleNav = ({ title, active, links }) => {
+const MiddleNav = ({ title, active, links, children }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -52,6 +53,8 @@ const MiddleNav = ({ title, active, links }) => {
           );
         })}
       </ul>
+
+      {children}
     </div>
   );
 };
@@ -77,7 +80,10 @@ const CompanyNav = ({ active }) => {
         { title: 'Testimonials', href: '/about/testimonials' },
         { title: 'News', href: '/about/news' },
       ]}
-    ></MiddleNav>
+    >
+      <h4>Literature</h4>
+      <PDFLink href="/docs/MZ-Innovator.pdf" title="MZ Timeline"></PDFLink>
+    </MiddleNav>
   );
 };
 
