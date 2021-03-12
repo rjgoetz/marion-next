@@ -83,47 +83,48 @@ export default function ReptileNutrition() {
                   <div className="md:w-1/2 lg:w-2/3 xl:w-1/2">
                     <h2>Selected Nutrients</h2>
                     <table>
-                      <tbody></tbody>
-                      <tr>
-                        <td>Acid Detergent Fiber</td>
-                        <td>13&#37; Min.</td>
-                      </tr>
-                      <tr>
-                        <td>Acid Detergent Fiber</td>
-                        <td>16&#37; Max.</td>
-                      </tr>
-                      <tr>
-                        <td>Available Iron</td>
-                        <td>100 ppm Min.</td>
-                      </tr>
-                      <tr>
-                        <td>Neutral Detergent Fiber</td>
-                        <td>21&#37; Min.</td>
-                      </tr>
-                      <tr>
-                        <td>Calcium</td>
-                        <td>1.0&#37; Min.</td>
-                      </tr>
-                      <tr>
-                        <td>Phosphorus</td>
-                        <td>0.7&#37; Min.</td>
-                      </tr>
-                      <tr>
-                        <td>Vitamin D-3</td>
-                        <td>3500 IU/Kg Min.</td>
-                      </tr>
-                      <tr>
-                        <td>Copper</td>
-                        <td>20 ppm Min.</td>
-                      </tr>
-                      <tr>
-                        <td>Iodine</td>
-                        <td>1.0 ppm Min.</td>
-                      </tr>
-                      <tr>
-                        <td>Selenium</td>
-                        <td>0.3 ppm Min.</td>
-                      </tr>
+                      <tbody>
+                        <tr>
+                          <td>Acid Detergent Fiber</td>
+                          <td>13&#37; Min.</td>
+                        </tr>
+                        <tr>
+                          <td>Acid Detergent Fiber</td>
+                          <td>16&#37; Max.</td>
+                        </tr>
+                        <tr>
+                          <td>Available Iron</td>
+                          <td>100 ppm Min.</td>
+                        </tr>
+                        <tr>
+                          <td>Neutral Detergent Fiber</td>
+                          <td>21&#37; Min.</td>
+                        </tr>
+                        <tr>
+                          <td>Calcium</td>
+                          <td>1.0&#37; Min.</td>
+                        </tr>
+                        <tr>
+                          <td>Phosphorus</td>
+                          <td>0.7&#37; Min.</td>
+                        </tr>
+                        <tr>
+                          <td>Vitamin D-3</td>
+                          <td>3500 IU/Kg Min.</td>
+                        </tr>
+                        <tr>
+                          <td>Copper</td>
+                          <td>20 ppm Min.</td>
+                        </tr>
+                        <tr>
+                          <td>Iodine</td>
+                          <td>1.0 ppm Min.</td>
+                        </tr>
+                        <tr>
+                          <td>Selenium</td>
+                          <td>0.3 ppm Min.</td>
+                        </tr>
+                      </tbody>
                     </table>
                   </div>
                 </div>

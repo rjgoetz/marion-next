@@ -66,6 +66,7 @@ MiddleNav.propTypes = {
     href: PropTypes.string.isRequired,
   }).isRequired,
   title: PropTypes.string.isRequired,
+  children: PropTypes.node,
 };
 
 const CompanyNav = ({ active }) => {
@@ -129,7 +130,72 @@ const ReptileNav = ({ active }) => {
   );
 };
 
-const BirdNav = ({ active }) => {
+const SubNav = ({ active, title, links }) => {
+  return (
+    <>
+      <h4 className="text-sm uppercase">{title}</h4>
+      <ul className="list-none pl-0">
+        {links.map((link) => {
+          return (
+            <li className="mb-0 text-sm leading-loose">
+              <Link href={link.href}>
+                <a
+                  className={`${
+                    link.title === active
+                      ? 'text-green'
+                      : 'font-light text-brown hover:text-black'
+                  }`}
+                >
+                  {link.title}
+                </a>
+              </Link>
+            </li>
+          );
+        })}
+      </ul>
+    </>
+  );
+};
+
+SubNav.propTypes = {
+  active: PropTypes.string,
+  links: PropTypes.arrayOf({
+    title: PropTypes.string.isRequired,
+    href: PropTypes.string.isRequired,
+  }).isRequired,
+  title: PropTypes.string.isRequired,
+};
+
+const AdultBirdNav = ({ active }) => {
+  return (
+    <SubNav
+      active={active}
+      title="Products"
+      links={[
+        { title: 'Jungle', href: '/bird/adult/jungle' },
+        { title: 'Paradise', href: '/bird/adult/paradise' },
+        { title: 'Hot & Healthy', href: '/bird/adult/hot-healthy' },
+        { title: 'Allprem', href: '/bird/adult/allprem' },
+        { title: 'Scenic Lory', href: '/bird/adult/lory' },
+      ]}
+    ></SubNav>
+  );
+};
+
+const JuvenileBirdNav = ({ active }) => {
+  return (
+    <SubNav
+      active={active}
+      title="Products"
+      links={[
+        { title: 'Hand Feeding', href: '/bird/juvenile/hand-feeding' },
+        { title: 'Hand Weaning', href: '/bird/juvenile/hand-weaning' },
+      ]}
+    ></SubNav>
+  );
+};
+
+const BirdNav = ({ active, children }) => {
   return (
     <MiddleNav
       title="Scenic Bird Food"
@@ -139,8 +205,17 @@ const BirdNav = ({ active }) => {
         { title: 'Adult Birds', href: '/bird/adult' },
         { title: 'Juvenile Birds', href: '/bird/juvenile' },
       ]}
-    ></MiddleNav>
+    >
+      {children}
+    </MiddleNav>
   );
 };
 
-export { CompanyNav, LeafEaterNav, ReptileNav, BirdNav };
+export {
+  CompanyNav,
+  LeafEaterNav,
+  ReptileNav,
+  BirdNav,
+  AdultBirdNav,
+  JuvenileBirdNav,
+};

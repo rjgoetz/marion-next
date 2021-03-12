@@ -75,7 +75,7 @@
   }
 
   figcaption {
-    @apply text-sm;
+    @apply text-sm text-center;
   }
 
   table {
