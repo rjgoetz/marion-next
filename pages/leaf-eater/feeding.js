@@ -31,7 +31,7 @@ export default function LeafEaterNutrition() {
               <div className="lg:col-span-9">
                 <h1>Leaf Eater Foods</h1>
 
-                <h3>Feeding Directions</h3>
+                <h2>Feeding Directions</h2>
 
                 <p>
                   Marion Leaf Eater food sets the standard for dietary
@@ -107,7 +107,7 @@ export default function LeafEaterNutrition() {
                   When Leaf Eater is fed dry, it can be an effective dentifrice.
                 </p>
 
-                <h3>General Feeding Instructions</h3>
+                <h2>General Feeding Instructions</h2>
                 <ul className="list-square">
                   <li>
                     This product may be fed alone or offered with fruits and

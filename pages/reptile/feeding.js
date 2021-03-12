@@ -33,7 +33,7 @@ export default function ReptileFeeding() {
               <div className="lg:col-span-9">
                 <h1>Mozaic Reptile Foods</h1>
 
-                <h3>Feeding Directions</h3>
+                <h2>Feeding Directions</h2>
 
                 <p>
                   Mozaic Reptile Food is a complete formulated diet and does not
@@ -69,7 +69,7 @@ export default function ReptileFeeding() {
                   </tbody>
                 </table>
 
-                <h3>General Feeding Instructions</h3>
+                <h2>General Feeding Instructions</h2>
                 <ul className="list-square">
                   <li>
                     This product may be fed alone or offered with fruits and

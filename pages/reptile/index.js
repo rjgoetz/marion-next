@@ -56,7 +56,7 @@ export default function Reptile() {
                   <li>Moistens with water, fruit juice, or vegetable juice</li>
                 </ul>
 
-                <h3>Ordering Information</h3>
+                <h2>Ordering Information</h2>
                 <p>
                   Reptile Food is available in two sizes (same formula) to
                   accommodate varying feeding protocols.

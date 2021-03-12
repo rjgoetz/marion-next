@@ -56,7 +56,7 @@ export default function LeafEater() {
                   iodine.
                 </p>
 
-                <h3 className="mb-2">Ordering Information</h3>
+                <h2 className="mb-2">Ordering Information</h2>
                 <p>
                   Leaf Eater is available in three sizes (same formula) to
                   accommodate varying feeding protocols.

@@ -33,7 +33,7 @@ export default function ReptileNutrition() {
               <div className="lg:col-span-9">
                 <h1>Mozaic Reptile Foods</h1>
 
-                <h3>Ingredients</h3>
+                <h2>Ingredients</h2>
 
                 <p className="mb-8">
                   Soybean meal, corn gluten meal, soybean hulls, sugar beet
@@ -53,7 +53,7 @@ export default function ReptileNutrition() {
 
                 <div className="md:flex md:gap-8 lg:flex-wrap xl:flex-nowrap">
                   <div className="md:w-1/2 lg:w-2/3 xl:w-1/2">
-                    <h3>Guaranteed Analysis</h3>
+                    <h2>Guaranteed Analysis</h2>
                     <table>
                       <tbody>
                         <tr>
@@ -81,7 +81,7 @@ export default function ReptileNutrition() {
                   </div>
 
                   <div className="md:w-1/2 lg:w-2/3 xl:w-1/2">
-                    <h3>Selected Nutrients</h3>
+                    <h2>Selected Nutrients</h2>
                     <table>
                       <tbody></tbody>
                       <tr>

@@ -111,7 +111,7 @@ const LeafEaterNav = ({ active }) => {
 const ReptileNav = ({ active }) => {
   return (
     <MiddleNav
-      title="Reptile"
+      title="Mozaic Reptile"
       active={active}
       links={[
         { title: 'Overview', href: '/reptile' },
@@ -129,4 +129,18 @@ const ReptileNav = ({ active }) => {
   );
 };
 
-export { CompanyNav, LeafEaterNav, ReptileNav };
+const BirdNav = ({ active }) => {
+  return (
+    <MiddleNav
+      title="Scenic Bird Food"
+      active={active}
+      links={[
+        { title: 'Overview', href: '/bird' },
+        { title: 'Adult Birds', href: '/bird/adult' },
+        { title: 'Juvenile Birds', href: '/bird/juvenile' },
+      ]}
+    ></MiddleNav>
+  );
+};
+
+export { CompanyNav, LeafEaterNav, ReptileNav, BirdNav };

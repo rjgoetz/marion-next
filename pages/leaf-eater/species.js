@@ -32,7 +32,7 @@ export default function LeafEaterSpecies() {
               <div className="lg:col-span-9">
                 <h1>Leaf Eater Foods</h1>
 
-                <h3>Species Groups</h3>
+                <h2>Species Groups</h2>
 
                 <p>
                   Marion Leaf Eater Food is recommended by wildlife and zoo

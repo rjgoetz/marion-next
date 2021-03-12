@@ -31,7 +31,7 @@ export default function ReptileSpecies() {
               <div className="lg:col-span-9">
                 <h1>Mozaic Reptile Foods</h1>
 
-                <h3>Species Groups</h3>
+                <h2>Species Groups</h2>
                 <p>
                   Mozaic Reptile Food is recommended by wildlife and zoo
                   veterinarians as a primary diet for reptile species groups
