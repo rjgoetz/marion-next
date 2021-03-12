@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
 import Layout from '../../components/Layout';
-import { FoodsNav } from '../../components/MiddleNav';
+import { LeafEaterNav } from '../../components/MiddleNav';
 
 export default function LeafEaterSpecies() {
   return (
@@ -18,6 +18,7 @@ export default function LeafEaterSpecies() {
             width={730}
             height={211}
             layout="responsive"
+            alt="gorilla"
           ></Image>
         </div>
 
@@ -25,7 +26,7 @@ export default function LeafEaterSpecies() {
           <div className="container">
             <div className="lg:grid lg:grid-cols-12 lg:gap-8 xl:gap-16">
               <div className="lg:col-span-3">
-                <FoodsNav active="Species Groups"></FoodsNav>
+                <LeafEaterNav active="Species Groups"></LeafEaterNav>
               </div>
 
               <div className="lg:col-span-9">

@@ -96,7 +96,8 @@
   }
 
   tr {
-    @apply border-b border-beige;
+    @apply border-l border-b border-beige;
+    border-left: 1px solid #746158;
   }
 
   tr:last-of-type {

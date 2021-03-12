@@ -87,7 +87,7 @@ const CompanyNav = ({ active }) => {
   );
 };
 
-const FoodsNav = ({ active }) => {
+const LeafEaterNav = ({ active }) => {
   return (
     <MiddleNav
       title="Leaf Eater"
@@ -108,4 +108,25 @@ const FoodsNav = ({ active }) => {
   );
 };
 
-export { CompanyNav, FoodsNav };
+const ReptileNav = ({ active }) => {
+  return (
+    <MiddleNav
+      title="Reptile"
+      active={active}
+      links={[
+        { title: 'Overview', href: '/reptile' },
+        { title: 'Species Groups', href: '/reptile/species' },
+        { title: 'Nutrition Facts', href: '/reptile/nutrition' },
+        { title: 'Feeding Directions', href: '/reptile/feeding' },
+      ]}
+    >
+      <h4>Literature</h4>
+      <PDFLink
+        href="/docs/MozaicReptile_03-12.pdf"
+        title="Mozaic Reptile Brochure"
+      ></PDFLink>
+    </MiddleNav>
+  );
+};
+
+export { CompanyNav, LeafEaterNav, ReptileNav };

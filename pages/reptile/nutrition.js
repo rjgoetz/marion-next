@@ -1,23 +1,25 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import Layout from '../../components/Layout';
-import { LeafEaterNav } from '../../components/MiddleNav';
+import { ReptileNav } from '../../components/MiddleNav';
 
-export default function LeafEaterNutrition() {
+export default function ReptileNutrition() {
   return (
     <div>
       <Head>
-        <title>Nutrition Facts - Leaf Eater Foods | Marion Zoological</title>
+        <title>
+          Nutrition Facts - Mozaic Reptile Foods | Marion Zoological
+        </title>
       </Head>
 
       <Layout>
         <div className="lg:mb-16">
           <Image
-            src="/images/banner-gorilla.jpg"
+            src="/images/banner-iguana.jpg"
             width={730}
             height={211}
             layout="responsive"
-            alt="gorilla"
+            alt="iguana"
           ></Image>
         </div>
 
@@ -25,11 +27,11 @@ export default function LeafEaterNutrition() {
           <div className="container">
             <div className="lg:grid lg:grid-cols-12 lg:gap-8 xl:gap-16">
               <div className="lg:col-span-3">
-                <LeafEaterNav active="Nutrition Facts"></LeafEaterNav>
+                <ReptileNav active="Nutrition Facts"></ReptileNav>
               </div>
 
               <div className="lg:col-span-9">
-                <h1>Leaf Eater Foods</h1>
+                <h1>Mozaic Reptile Foods</h1>
 
                 <h3>Ingredients</h3>
 
@@ -40,13 +42,13 @@ export default function LeafEaterNutrition() {
                   dicalcium phosphate, flaxseed oil, niacin supplement, apple
                   fiber, manganese sulfate, ferrous sulfate, calcium carbonate,
                   d-calcium pantothenate, sodium chloride, copper sulfate,
-                  L-lysine, riboflavin supplement, thiamin mononitrate, cobalt
-                  oxide, folic acid, menadione nicotinamide bisulfite (vitamin
-                  K), pyridoxine HCL (vitamin B-6), l-ascorbyl-2-polyphosphate
-                  (source of vitamin C), choline chloride, ethylenediamine
-                  dihydriodide, FDC # 40, biotin, sodium selenite, vitamin B-12
-                  supplement, vitamin A supplement, vitamin D-3 supplement,
-                  vitamin E supplement.
+                  L-lysine, riboflavin supplement, thiamin mononitrate, folic
+                  acid, menadione nicotinamide bisulfite (vitamin K), pyridoxine
+                  HCL (vitamin B-6), l-ascorbyl-2-polyphosphate (source of
+                  vitamin C), choline chloride, ethylenediamine dihydriodide,
+                  FDC # 40, biotin, sodium selenite, vitamin B-12 supplement,
+                  vitamin A supplement, vitamin D-3 supplement, vitamin E
+                  supplement.
                 </p>
 
                 <div className="md:flex md:gap-8 lg:flex-wrap xl:flex-nowrap">
@@ -56,15 +58,15 @@ export default function LeafEaterNutrition() {
                       <tbody>
                         <tr>
                           <td>Crude Protein</td>
-                          <td>23&#37; Min.</td>
+                          <td>20&#37; Min.</td>
                         </tr>
                         <tr>
                           <td>Crude Fat</td>
-                          <td>6.5&#37; Min.</td>
+                          <td>6&#37; Min.</td>
                         </tr>
                         <tr>
                           <td>Crude Fiber</td>
-                          <td>11&#37; Min.</td>
+                          <td>11&#37; Max.</td>
                         </tr>
                         <tr>
                           <td>Moisture</td>
