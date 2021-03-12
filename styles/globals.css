@@ -61,4 +61,20 @@
   .top-nav li {
     @apply mb-0;
   }
+
+  .sub-nav li {
+    @apply mb-2;
+  }
+
+  blockquote {
+    @apply mb-2;
+  }
+
+  figure {
+    @apply mb-4;
+  }
+
+  figcaption {
+    @apply text-sm;
+  }
 }
