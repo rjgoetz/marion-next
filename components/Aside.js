@@ -2,9 +2,9 @@ import Image from 'next/image';
 
 export default function Aside() {
   return (
-    <aside className="bg-beige py-8 lg:pb-16 lg:h-full">
+    <aside className="bg-beige py-8 lg:pt-20 lg:pb-16 lg:h-full">
       <div className="container lg:px-8">
-        <h4>Affiliations</h4>
+        <h4 className="lg:mt-2">Affiliations</h4>
         <div className="flex justify-center mb-8">
           <Image
             src="/images/affiliations.png"

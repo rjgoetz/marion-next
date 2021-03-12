@@ -87,4 +87,25 @@ const CompanyNav = ({ active }) => {
   );
 };
 
-export { CompanyNav };
+const FoodsNav = ({ active }) => {
+  return (
+    <MiddleNav
+      title="Leaf Eater"
+      active={active}
+      links={[
+        { title: 'Overview', href: '/leaf-eater' },
+        { title: 'Species Groups', href: '/leaf-eater/species' },
+        { title: 'Nutrition Facts', href: '/leaf-eater/nutrition' },
+        { title: 'Feeding Directions', href: '/leaf-eater/feeding' },
+      ]}
+    >
+      <h4>Literature</h4>
+      <PDFLink
+        href="/docs/MZ-LeafEater-Broch_0915.pdf"
+        title="MZ Leaf Eater Brochure"
+      ></PDFLink>
+    </MiddleNav>
+  );
+};
+
+export { CompanyNav, FoodsNav };

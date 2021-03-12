@@ -110,22 +110,22 @@ export default function Header() {
               Foods
               <ul className="sub-nav list-none text-sm pl-2 lg:pl-0 lg:mt-12 lg:text-left">
                 <li>
-                  <Link href="/">
+                  <Link href="/leaf-eater">
                     <a className="block">Leaf Eater</a>
                   </Link>
                 </li>
                 <li>
-                  <Link href="/">
+                  <Link href="/reptile">
                     <a className="block">Mozaic Reptile</a>
                   </Link>
                 </li>
                 <li>
-                  <Link href="/">
+                  <Link href="/bird">
                     <a className="block">Scenic Bird Food</a>
                   </Link>
                 </li>
                 <li>
-                  <Link href="/">
+                  <Link href="/insect">
                     <a className="block">Orthocal Insect</a>
                   </Link>
                 </li>

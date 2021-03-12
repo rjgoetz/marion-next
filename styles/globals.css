@@ -77,4 +77,33 @@
   figcaption {
     @apply text-sm;
   }
+
+  table {
+    @apply w-full border border-brown mb-8;
+  }
+
+  thead {
+    @apply text-brown bg-beige;
+  }
+
+  th,
+  td {
+    @apply p-1;
+  }
+
+  th {
+    @apply font-semibold border-r border-brown;
+  }
+
+  tr {
+    @apply border-b border-beige;
+  }
+
+  tr:last-of-type {
+    @apply border-b border-brown;
+  }
+
+  td {
+    @apply px-2 border-r border-brown;
+  }
 }
