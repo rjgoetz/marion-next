@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 
 export default function PDFLink({ title, href }) {
   return (
-    <a href={href} target="_blank" className="flex items-center">
+    <a href={href} target="_blank">
       <svg
         className="h-4 w-4 mr-1 inline text-red"
         xmlns="http://www.w3.org/2000/svg"
@@ -17,7 +17,7 @@ export default function PDFLink({ title, href }) {
           d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z"
         />
       </svg>
-      <span className="text-sm">{title}</span>
+      <span className="text-sm align-middle">{title}</span>
     </a>
   );
 }

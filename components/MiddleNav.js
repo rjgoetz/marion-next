@@ -37,7 +37,7 @@ const MiddleNav = ({ title, active, links, children }) => {
       <ul className="list-none pl-0 leading-loose">
         {links.map((link) => {
           return (
-            <li className="mb-0">
+            <li key={link.title} className="mb-0">
               <Link href={link.href}>
                 <a
                   className={`${
@@ -61,10 +61,12 @@ const MiddleNav = ({ title, active, links, children }) => {
 
 MiddleNav.propTypes = {
   active: PropTypes.string.isRequired,
-  links: PropTypes.arrayOf({
-    title: PropTypes.string.isRequired,
-    href: PropTypes.string.isRequired,
-  }).isRequired,
+  links: PropTypes.arrayOf(
+    PropTypes.shape({
+      title: PropTypes.string.isRequired,
+      href: PropTypes.string.isRequired,
+    }).isRequired
+  ).isRequired,
   title: PropTypes.string.isRequired,
   children: PropTypes.node,
 };
@@ -130,14 +132,14 @@ const ReptileNav = ({ active }) => {
   );
 };
 
-const SubNav = ({ active, title, links }) => {
+const SubNav = ({ active, title, links, children }) => {
   return (
     <>
-      <h4 className="text-sm uppercase">{title}</h4>
+      <h4>{title}</h4>
       <ul className="list-none pl-0">
         {links.map((link) => {
           return (
-            <li className="mb-0 text-sm leading-loose">
+            <li key={link.title} className="mb-0 text-sm leading-loose">
               <Link href={link.href}>
                 <a
                   className={`${
@@ -153,20 +155,24 @@ const SubNav = ({ active, title, links }) => {
           );
         })}
       </ul>
+      {children}
     </>
   );
 };
 
 SubNav.propTypes = {
   active: PropTypes.string,
-  links: PropTypes.arrayOf({
-    title: PropTypes.string.isRequired,
-    href: PropTypes.string.isRequired,
-  }).isRequired,
+  links: PropTypes.arrayOf(
+    PropTypes.shape({
+      title: PropTypes.string.isRequired,
+      href: PropTypes.string.isRequired,
+    }).isRequired
+  ).isRequired,
   title: PropTypes.string.isRequired,
+  children: PropTypes.node,
 };
 
-const AdultBirdNav = ({ active }) => {
+const AdultBirdNav = ({ active, children }) => {
   return (
     <SubNav
       active={active}
@@ -178,11 +184,13 @@ const AdultBirdNav = ({ active }) => {
         { title: 'Allprem', href: '/bird/adult/allprem' },
         { title: 'Scenic Lory', href: '/bird/adult/lory' },
       ]}
-    ></SubNav>
+    >
+      {children}
+    </SubNav>
   );
 };
 
-const JuvenileBirdNav = ({ active }) => {
+const JuvenileBirdNav = ({ active, children }) => {
   return (
     <SubNav
       active={active}
@@ -191,7 +199,9 @@ const JuvenileBirdNav = ({ active }) => {
         { title: 'Hand Feeding', href: '/bird/juvenile/hand-feeding' },
         { title: 'Hand Weaning', href: '/bird/juvenile/hand-weaning' },
       ]}
-    ></SubNav>
+    >
+      {children}
+    </SubNav>
   );
 };
 

@@ -4,11 +4,11 @@ import Layout from '../../../components/Layout';
 import PDFLink from '../../../components/PDFLink';
 import { BirdNav, AdultBirdNav } from '../../../components/MiddleNav';
 
-export default function Jungle() {
+export default function Paradise() {
   return (
     <div>
       <Head>
-        <title>Jungle Food - Scenic Bird Food | Marion Zoological</title>
+        <title>Paradise Food - Scenic Bird Food | Marion Zoological</title>
       </Head>
 
       <Layout>
@@ -27,7 +27,7 @@ export default function Jungle() {
             <div className="lg:grid lg:grid-cols-12 lg:gap-8 xl:gap-16">
               <div className="lg:col-span-3">
                 <BirdNav active="Adult Birds">
-                  <AdultBirdNav active="Jungle">
+                  <AdultBirdNav active="Paradise">
                     <h4>Literature</h4>
                     <ul className="pl-0 list-none leading-loose">
                       <li className="mb-0 text-sm leading-loose">
@@ -51,8 +51,8 @@ export default function Jungle() {
                 <h1>Scenic Jungle Food</h1>
                 <figure className="mb-8">
                   <Image
-                    src="/images/jungle-banner.jpg"
-                    alt="Jungle Food Banner"
+                    src="/images/paradise-banner.jpg"
+                    alt="Paradise Food Banner"
                     width={567}
                     height={297}
                     layout="responsive"
@@ -63,17 +63,16 @@ export default function Jungle() {
                 <div className="flex flex-col items-center mb-8 gap-8 sm:flex-row lg:gap-16">
                   <div className="sm:w-2/3 xl:w-3/4">
                     <p className="mb-0">
-                      Scenic&trade; Jungle Food is an elongated, pencil-shaped
-                      morsel about 1" (2.5 cm) long with a light and crunchy
-                      texture for large- and medium-sized parrots like African
-                      Greys, Macaws, and Cockatoos that like to pick up food
-                      with their feet.
+                      Scenic&trade; Paradise Food is a round-shaped morsel about
+                      ¼" diameter with a light crunchy texture. For large and
+                      medium-sized parrots like African Greys, Macaws, and
+                      Cockatoos that prefer to pick up food with their beak.
                     </p>
                   </div>
                   <div className="w-1/2 sm:w-1/3 xl:w-1/4">
                     <Image
-                      src="/images/jungle-product.jpg"
-                      alt="Jungle Food pieces"
+                      src="/images/paradise-product.jpg"
+                      alt="Paradise Food pieces"
                       width={400}
                       height={326}
                     ></Image>
@@ -82,9 +81,9 @@ export default function Jungle() {
 
                 <h2>Creating a Diet</h2>
                 <p>
-                  Jungle Food can be fed as single diet or mixed with fruits and
-                  vegetables. Follow this protocol when feeding with fruits and
-                  vegetables:
+                  Paradise Food can be fed as single diet or mixed with fruits
+                  and vegetables. Follow this protocol when feeding with fruits
+                  and vegetables:
                 </p>
 
                 <table>
@@ -107,7 +106,7 @@ export default function Jungle() {
                 <h2>General Feeding Instructions</h2>
                 <ul className="mb-8">
                   <li>
-                    Store Jungle Food in a cool, dry location while keeping it
+                    Store Paradise Food in a cool, dry location while keeping it
                     covered when not in use.
                   </li>
                   <li>No refrigeration is required.</li>
@@ -129,12 +128,12 @@ export default function Jungle() {
                     <h4 className="text-center mb-2">Mix</h4>
                     <figure>
                       <Image
-                        src="/images/mix-jungle.jpg"
-                        alt="Mix Jungle Food"
+                        src="/images/mix-paradise.jpg"
+                        alt="Mix Paradise Food"
                         width={400}
                         height={406}
                       ></Image>
-                      <figcaption>SKU#: MXJ B25</figcaption>
+                      <figcaption>SKU#: MXP B25</figcaption>
                     </figure>
                   </div>
 
@@ -142,24 +141,24 @@ export default function Jungle() {
                     <h4 className="text-center mb-2">Corn</h4>
                     <figure>
                       <Image
-                        src="/images/corn-jungle.jpg"
-                        alt="Corn Jungle Food"
+                        src="/images/corn-paradise.jpg"
+                        alt="Corn Paradise Food"
                         width={400}
                         height={406}
                       ></Image>
-                      <figcaption>SKU# CJ B25</figcaption>
+                      <figcaption>SKU# CP B25</figcaption>
                     </figure>
                   </div>
                   <div className="w-2/3 sm:w-1/4">
                     <h4 className="text-center mb-2">Chili</h4>
                     <figure>
                       <Image
-                        src="/images/chili-jungle.jpg"
-                        alt="Chili Jungle Food"
+                        src="/images/chili-paradise.jpg"
+                        alt="Chili Paradise Food"
                         width={400}
                         height={406}
                       ></Image>
-                      <figcaption>SKU# CHSJ B25</figcaption>
+                      <figcaption>SKU# CHSP B25</figcaption>
                     </figure>
                   </div>
 
@@ -167,12 +166,12 @@ export default function Jungle() {
                     <h4 className="text-center mb-2">Apple</h4>
                     <figure>
                       <Image
-                        src="/images/apple-jungle.jpg"
-                        alt="Apple Jungle Food"
+                        src="/images/apple-paradise.jpg"
+                        alt="Apple Paradise Food"
                         width={400}
                         height={406}
                       ></Image>
-                      <figcaption>SKU# AJ B25</figcaption>
+                      <figcaption>SKU# AP B25</figcaption>
                     </figure>
                   </div>
                 </div>

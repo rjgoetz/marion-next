@@ -4,11 +4,11 @@ import Layout from '../../../components/Layout';
 import PDFLink from '../../../components/PDFLink';
 import { BirdNav, AdultBirdNav } from '../../../components/MiddleNav';
 
-export default function Jungle() {
+export default function Lory() {
   return (
     <div>
       <Head>
-        <title>Jungle Food - Scenic Bird Food | Marion Zoological</title>
+        <title>Lory Food - Scenic Bird Food | Marion Zoological</title>
       </Head>
 
       <Layout>
@@ -27,13 +27,19 @@ export default function Jungle() {
             <div className="lg:grid lg:grid-cols-12 lg:gap-8 xl:gap-16">
               <div className="lg:col-span-3">
                 <BirdNav active="Adult Birds">
-                  <AdultBirdNav active="Jungle">
+                  <AdultBirdNav active="Scenic Lory">
                     <h4>Literature</h4>
                     <ul className="pl-0 list-none leading-loose">
                       <li className="mb-0 text-sm leading-loose">
                         <PDFLink
-                          href="/docs/JungleParadise_10-09.pdf"
+                          href="/docs/Lory_04-10.pdf"
                           title="Brochure"
+                        ></PDFLink>
+                      </li>
+                      <li className="mb-0 text-sm leading-loose">
+                        <PDFLink
+                          href="/docs/FS_AppDryDietLory-0310.pdf"
+                          title="Fact Sheet"
                         ></PDFLink>
                       </li>
                       <li className="mb-0 text-sm leading-loose">
@@ -48,11 +54,11 @@ export default function Jungle() {
               </div>
 
               <div className="lg:col-span-9">
-                <h1>Scenic Jungle Food</h1>
+                <h1>Scenic Lory Food</h1>
                 <figure className="mb-8">
                   <Image
-                    src="/images/jungle-banner.jpg"
-                    alt="Jungle Food Banner"
+                    src="/images/lory-banner.jpg"
+                    alt="Lory Food Banner"
                     width={567}
                     height={297}
                     layout="responsive"
@@ -63,28 +69,29 @@ export default function Jungle() {
                 <div className="flex flex-col items-center mb-8 gap-8 sm:flex-row lg:gap-16">
                   <div className="sm:w-2/3 xl:w-3/4">
                     <p className="mb-0">
-                      Scenic&trade; Jungle Food is an elongated, pencil-shaped
-                      morsel about 1" (2.5 cm) long with a light and crunchy
-                      texture for large- and medium-sized parrots like African
-                      Greys, Macaws, and Cockatoos that like to pick up food
-                      with their feet.
+                      Scenic&trade; Lory Food is a formulated diet available in
+                      dry powder mix or pellet that improves the nutrition,
+                      health and cage-cleanliness of Lories and Lorikeets.
+                      Scientifically formulated and tested, our foods encourage
+                      Lories to learn the natural feeding behaviors that they
+                      have evolved in the wild.
                     </p>
                   </div>
                   <div className="w-1/2 sm:w-1/3 xl:w-1/4">
                     <Image
-                      src="/images/jungle-product.jpg"
-                      alt="Jungle Food pieces"
+                      src="/images/lory-product.jpg"
+                      alt="Lory pellet food pieces"
                       width={400}
-                      height={326}
+                      height={409}
                     ></Image>
                   </div>
                 </div>
 
                 <h2>Creating a Diet</h2>
                 <p>
-                  Jungle Food can be fed as single diet or mixed with fruits and
-                  vegetables. Follow this protocol when feeding with fruits and
-                  vegetables:
+                  Scenic Lory is safe to feed your bird alone. Most birds in
+                  these groups will consume about 10 grams of Scenic Lory per
+                  day. If mixed with fruits and vegetables, follow:
                 </p>
 
                 <table>
@@ -107,8 +114,8 @@ export default function Jungle() {
                 <h2>General Feeding Instructions</h2>
                 <ul className="mb-8">
                   <li>
-                    Store Jungle Food in a cool, dry location while keeping it
-                    covered when not in use.
+                    Store Scenic Lory Food in a cool, dry location while keeping
+                    it covered when not in use.
                   </li>
                   <li>No refrigeration is required.</li>
                   <li>
@@ -125,54 +132,37 @@ export default function Jungle() {
 
                 <h2>Ordering Information</h2>
                 <div className="mb-4 flex flex-col items-center gap-8 sm:flex-row xl:gap-16">
-                  <div className="w-2/3 sm:w-1/4">
-                    <h4 className="text-center mb-2">Mix</h4>
+                  <div className="w-2/3 sm:w-1/3">
+                    <h4 className="text-center mb-2">Lory Pellets</h4>
                     <figure>
                       <Image
-                        src="/images/mix-jungle.jpg"
-                        alt="Mix Jungle Food"
+                        src="/images/lory-pellets.jpg"
+                        alt="Lory Food"
                         width={400}
-                        height={406}
+                        height={426}
                       ></Image>
-                      <figcaption>SKU#: MXJ B25</figcaption>
+                      <figcaption>
+                        SKU# LPLTS B25{' '}
+                        <span className="block">
+                          Size: 1/8" dia. sphere (3 mm)
+                        </span>
+                      </figcaption>
                     </figure>
                   </div>
 
-                  <div className="w-2/3 sm:w-1/4">
-                    <h4 className="text-center mb-2">Corn</h4>
+                  <div className="w-2/3 sm:w-1/3">
+                    <h4 className="text-center mb-2">Lory Powder</h4>
                     <figure>
                       <Image
-                        src="/images/corn-jungle.jpg"
-                        alt="Corn Jungle Food"
+                        src="/images/lory-powder.jpg"
+                        alt="Lory Powder"
                         width={400}
-                        height={406}
+                        height={426}
                       ></Image>
-                      <figcaption>SKU# CJ B25</figcaption>
-                    </figure>
-                  </div>
-                  <div className="w-2/3 sm:w-1/4">
-                    <h4 className="text-center mb-2">Chili</h4>
-                    <figure>
-                      <Image
-                        src="/images/chili-jungle.jpg"
-                        alt="Chili Jungle Food"
-                        width={400}
-                        height={406}
-                      ></Image>
-                      <figcaption>SKU# CHSJ B25</figcaption>
-                    </figure>
-                  </div>
-
-                  <div className="w-2/3 sm:w-1/4">
-                    <h4 className="text-center mb-2">Apple</h4>
-                    <figure>
-                      <Image
-                        src="/images/apple-jungle.jpg"
-                        alt="Apple Jungle Food"
-                        width={400}
-                        height={406}
-                      ></Image>
-                      <figcaption>SKU# AJ B25</figcaption>
+                      <figcaption>
+                        SKU# LPOW B25{' '}
+                        <span className="block">Size: Powder</span>
+                      </figcaption>
                     </figure>
                   </div>
                 </div>
@@ -180,18 +170,17 @@ export default function Jungle() {
                 <h2>Ingredients</h2>
                 <p className="mb-8">
                   Whole grain yellow corn, soybean meal, corn gluten meal, corn
-                  hominy feed, sucrose, sugar beet pulp, dehydrated alfalfa
-                  meal, soybean oil, zinc sulfate, flaxseed oil, dicalcium
-                  phosphate, niacin supplement, apple fiber, manganese sulfate,
-                  ferrous sulfate, calcium carbonate, calcium pantothenate,
-                  sodium chloride, red chili pepper (mix and chili products),
-                  L-lysine, copper sulfate, riboflavin supplement, thiamin
-                  mononitrate, cobalt oxide, folic acid,
-                  l-ascorbyl-2-polyphosphate (source of vitamin C), natural and
-                  artificial color (mix, chili, and apple products), pyridoxine
-                  hydrochloride, choline chloride, ethylenediamine dihydriodide,
-                  d-biotin, sodium selenite, vitamin B-12 supplement, vitamin A
-                  supplement, vitamin D-3 supplement, vitamin E supplement.
+                  hominy feed, sucrose, sugar beet pulp, dehydrated alfalfa,
+                  soybean oil, zinc sulfate, flaxseed oil, dicalcium phosphate,
+                  niacin supplement, apple fiber, manganese sulfate, ferrous
+                  sulfate, calcium carbonate, calcium pantothenate, sodium
+                  chloride, l-lysine, copper sulfate, riboflavin supplement,
+                  thiamin mononitrate, cobalt oxide, folic acid, menadione
+                  nicotinamide bisulfite, l-ascorbyl-2-polyphosphate (source of
+                  vitamin C), pyridoxine hydrochloride, choline chloride,
+                  propionic acid, ethylenediamine dihydriodide, d-biotin, sodium
+                  selenite, vitamin B-12 supplement, vitamin A supplement,
+                  vitamin D-3 supplement, vitamin E supplement.
                 </p>
 
                 <h2>Nutrition Information</h2>
@@ -203,15 +192,15 @@ export default function Jungle() {
                       <tbody>
                         <tr>
                           <td>Crude Protein</td>
-                          <td>20&#37; Min.</td>
+                          <td>22&#37; Min.</td>
                         </tr>
                         <tr>
                           <td>Crude Fat</td>
-                          <td>7&#37; Min.</td>
+                          <td>9&#37; Min.</td>
                         </tr>
                         <tr>
                           <td>Crude Fiber</td>
-                          <td>5&#37; Max.</td>
+                          <td>6&#37; Max.</td>
                         </tr>
                         <tr>
                           <td>Moisture</td>
@@ -243,7 +232,7 @@ export default function Jungle() {
                         </tr>
                         <tr>
                           <td>Vitamin D-3</td>
-                          <td>3500 IU/Kg Min.</td>
+                          <td>1600 IU/Kg Min.</td>
                         </tr>
                         <tr>
                           <td>Lysine</td>
