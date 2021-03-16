@@ -132,6 +132,27 @@ const ReptileNav = ({ active }) => {
   );
 };
 
+const InsectNav = ({ active }) => {
+  return (
+    <MiddleNav
+      title="Orthocal Insect"
+      active={active}
+      links={[
+        { title: 'Overview', href: '/insect' },
+        { title: 'Species Groups', href: '/insect/species' },
+        { title: 'Nutrition Facts', href: '/insect/nutrition' },
+        { title: 'Feeding Directions', href: '/insect/feeding' },
+      ]}
+    >
+      <h4>Literature</h4>
+      <PDFLink
+        href="/docs/Orthocal_03-12.pdf"
+        title="Orthocal Brochure"
+      ></PDFLink>
+    </MiddleNav>
+  );
+};
+
 const SubNav = ({ active, title, links, children }) => {
   return (
     <>
@@ -228,4 +249,5 @@ export {
   BirdNav,
   AdultBirdNav,
   JuvenileBirdNav,
+  InsectNav,
 };
