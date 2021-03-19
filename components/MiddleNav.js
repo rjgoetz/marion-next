@@ -153,6 +153,20 @@ const InsectNav = ({ active }) => {
   );
 };
 
+const ResourcesNav = ({ active }) => {
+  return (
+    <MiddleNav
+      title="Resources"
+      active={active}
+      links={[
+        { title: 'Literature', href: '/literature' },
+        { title: 'Research', href: '/research' },
+        { title: 'Links', href: '/links' },
+      ]}
+    ></MiddleNav>
+  );
+};
+
 const SubNav = ({ active, title, links, children }) => {
   return (
     <>
@@ -250,4 +264,5 @@ export {
   AdultBirdNav,
   JuvenileBirdNav,
   InsectNav,
+  ResourcesNav,
 };

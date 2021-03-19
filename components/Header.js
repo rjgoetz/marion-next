@@ -136,17 +136,17 @@ export default function Header() {
               Resources
               <ul className="sub-nav list-none text-sm pl-2 lg:pl-0 lg:mt-12 lg:text-left">
                 <li>
-                  <Link href="/">
+                  <Link href="/literature">
                     <a className="block">Literature</a>
                   </Link>
                 </li>
                 <li>
-                  <Link href="/">
+                  <Link href="/research">
                     <a className="block">Research</a>
                   </Link>
                 </li>
                 <li>
-                  <Link href="/">
+                  <Link href="/links">
                     <a className="block">Links</a>
                   </Link>
                 </li>
