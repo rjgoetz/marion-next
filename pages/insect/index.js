@@ -34,13 +34,13 @@ export default function Insect() {
 
                 <p>
                   Orthocal Insect Supplement is a calcium-rich supplement used
-                  to prepare crickets, mealworms, pinworms, and roaches for
-                  feeding to insectivore animals. Birds, reptiles, and mammals
-                  that consume insects as a part of normal daily feeding will
-                  benefit from the increased calcium levels achieved through
-                  preparatory insect gut-loading. Insect Supplement raises
-                  calcium levels in host insects to over 1% and establishes
-                  proper phosphorous ratios.
+                  to prepare crickets, mealworms, and roaches for feeding to
+                  insectivore animals. Birds, reptiles, and mammals that consume
+                  insects as a part of normal daily feeding will benefit from
+                  the increased calcium levels achieved through preparatory
+                  insect gut-loading. Insect Supplement raises calcium levels in
+                  host insects to over 1% and establishes proper phosphorous
+                  ratios.
                 </p>
 
                 <ul className="mb-8">
