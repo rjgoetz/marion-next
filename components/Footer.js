@@ -25,7 +25,7 @@ export default function Footer() {
                 </Link>
               </li>
               <li className="inline-block mr-6 lg:mr-0">
-                <Link href="/jobs">
+                <Link href="/legal/jobs">
                   <a>Jobs</a>
                 </Link>
               </li>

@@ -167,6 +167,20 @@ const ResourcesNav = ({ active }) => {
   );
 };
 
+const LegalNav = ({ active }) => {
+  return (
+    <MiddleNav
+      title="Legal"
+      active={active}
+      links={[
+        { title: 'Terms of Use', href: '/legal' },
+        { title: 'Privacy Policy', href: '/legal/privacy' },
+        { title: 'Job Opportunities', href: '/legal/jobs' },
+      ]}
+    ></MiddleNav>
+  );
+};
+
 const SubNav = ({ active, title, links, children }) => {
   return (
     <>
@@ -265,4 +279,5 @@ export {
   JuvenileBirdNav,
   InsectNav,
   ResourcesNav,
+  LegalNav,
 };
