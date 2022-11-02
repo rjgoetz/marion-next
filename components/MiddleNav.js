@@ -245,7 +245,7 @@ const JuvenileBirdNav = ({ active, children }) => {
       active={active}
       title="Products"
       links={[
-        { title: 'Hand Feeding', href: '/bird/juvenile/hand-feeding' },
+        { title: 'Hand Feeding', href: '/bird/juvenile/high-energy' },
         { title: 'Hand Weaning', href: '/bird/juvenile/hand-weaning' },
       ]}
     >
