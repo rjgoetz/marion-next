@@ -19,9 +19,14 @@ export default function Footer() {
                   <a>Terms of Use</a>
                 </Link>
               </li>
-              <li className="inline-block mr-6 lg:mr-0">
+              <li className="inline-block mr-6 lg:mr-8">
                 <Link href="/">
                   <a>Privacy Policy</a>
+                </Link>
+              </li>
+              <li className="inline-block mr-6 lg:mr-0">
+                <Link href="/jobs">
+                  <a>Jobs</a>
                 </Link>
               </li>
             </ul>
