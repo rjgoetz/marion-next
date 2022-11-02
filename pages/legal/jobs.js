@@ -29,6 +29,7 @@ export default function Legal() {
 
               <div className="lg:col-span-9">
                 <h1>Job Opportunities</h1>
+                <p>No jobs at the moment but please check back.</p>
               </div>
             </div>
           </div>
