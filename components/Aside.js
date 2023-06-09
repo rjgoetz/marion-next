@@ -17,13 +17,13 @@ export default function Aside() {
         <h4>News</h4>
         <div className="mb-8 text-sm">
           <p className="text-brown font-semibold mb-0">
-            AAZV 49th Annual Conference
+            AAZV 55th Annual Conference
           </p>
-          <p className="italic">September 23-29, 2017 in Dallas, TX</p>
+          <p className="italic">September 15-22, 2023 in Nashville, TN</p>
           <p>
             Marion Zoological will be attending the AAZV conference this year in
-            Dallas, TX from September 23-29, 2017. We look forward to seeing you
-            there!
+            Nashville, TN from September 15-22, 2023. We look forward to seeing
+            you there!
           </p>
         </div>
 
