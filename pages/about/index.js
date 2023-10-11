@@ -30,16 +30,13 @@ export default function About() {
               <div className="lg:col-span-9">
                 <h1>About Us</h1>
                 <p>
-                  In 1985 a collaboration of exceptional researchers,
-                  scientists, and exotic animal caretakers recognized a need to
-                  develop capabilities in the area of animal nutrition for rare
-                  and endangered species. Prior to this effort, scientific
-                  studies and documented field testing of the nutritional
-                  requirements for these species had been hampered by the
-                  following issues: a lack of resources; conflicting scientific
-                  directions; inappropriate food manufacturing technologies;
-                  economic motivation; and, a lack of access to collections of
-                  animals both in the wild and in captivity.
+                  Marion Zoological is a world-class provider of foods for rare
+                  and endangered animals and specialty pets. From the smallest
+                  birds, tortoise, primate, and even the Giant Panda, our foods
+                  have improved life spans, disease resitance, and increased
+                  birthrates. Since 2003, our foods were used to increase the
+                  birthrate of the Giant Panda from 0 live births to over 700 in
+                  2022.
                 </p>
                 <p className="mb-8">
                   By addressing these areas, Marion Zoological has become a
