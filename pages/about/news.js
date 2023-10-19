@@ -32,12 +32,12 @@ export default function News() {
 
                 <div className="sm:flex sm:gap-8 sm:items-center lg:flex-wrap xl:flex-nowrap">
                   <div className="sm:w-2/3 lg:w-full xl:w-2/3">
-                    <h3 className="mb-0">AAZV 49th Annual Conference</h3>
-                    <p>September 23-29, 2017 in Dallas, TX</p>
+                    <h3 className="mb-0">AAZV 55th Annual Conference</h3>
+                    <p>September 15-22, 2023 in Nashville, TN</p>
                     <p>
                       Marion Zoological will be attending the AAZV conference
-                      this year in Dallas, TX from September 23 - 29, 2017. We
-                      look forward to seeing you there!
+                      this year in Nashville, TN from September 15 - 22, 2023.
+                      We look forward to seeing you there!
                     </p>
                   </div>
                   <figure className="sm:w-1/3 lg:w-full xl:w-1/3">

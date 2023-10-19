@@ -27,12 +27,20 @@ export default function Aside() {
           </p>
         </div>
 
-        <div className="flex justify-center">
+        <div className="flex justify-center mb-8">
           <Image
             src="/images/approved.png"
             width={169}
             height={169}
             alt="Zoo Approved Since 1985"
+          ></Image>
+        </div>
+        <div className="flex justify-center">
+          <Image
+            src="/images/Marion-Kosher-568.png"
+            width={112}
+            height={140}
+            alt="Marion Zoological Kosher Certification"
           ></Image>
         </div>
       </div>

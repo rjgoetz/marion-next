@@ -29,18 +29,17 @@ export default function Home() {
                   <span className="block sm:inline">Marion Zoological</span>
                 </h1>
                 <p>
-                  Marion Zoological develops and manufactures specialty,
-                  life-enriching foods for rare and endangered species of
-                  animals. Since 1985, these formulated foods and innovative
-                  manufacturing methodologies have resulted in improvements to
-                  the captive conservation and propagation of over two hundred
-                  animal species. Prior to this time, many of these species
-                  would not survive on their own either in captivity or in the
-                  wild. Now, with the success of Marion Zoological foods,
-                  developed and formulated in close collaboration with
-                  exceptional researchers, scientists, and animal caregivers,
-                  many of these species are now considered to be
-                  self-sustaining.
+                  Marion Zoological develops and distributes specialty
+                  life-enriching foods for exotic pets, and rare and endangered
+                  zoo animals. Since 1985, these foods and innovative
+                  manufacturing techniques have resulted in healthier animals
+                  thanks to the work of many exceptional researchers,
+                  scientists, and animal caregivers.​
+                </p>
+                <p>
+                  Marion Zoological foods provide exceptional health benefits
+                  plus they provide the safest food possible. Our products meet
+                  or exceed human grade standards and are certified Kosher.​
                 </p>
               </div>
             </div>

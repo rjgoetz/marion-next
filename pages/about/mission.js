@@ -33,82 +33,60 @@ export default function Mission() {
                 <p>
                   That the world is a shared environment and all of God's
                   creatures should benefit from each other. Coexistence is not
-                  an option, it is a choice to follow God's plan for long-term
-                  survival.
+                  an option; it is a choice to follow our Creator's plan for
+                  long-term survival.
                 </p>
 
-                <h3>Our Mission</h3>
-                <p>
-                  To be a responsible developer of foods for rare and endangered
-                  species of animals, to manufacture these products to the
-                  highest quality levels possible, and to continue to make
-                  improvements to ensure the long-term survival of these animals
-                  for future generations.
-                </p>
-
-                <h3>Our Goals</h3>
+                <h3>Our Mission and Promises</h3>
                 <ul>
                   <li>
-                    Promote conservation and propagation of rare and endangered
-                    species of animals both in captivity and in the wild
+                    We are a RESPONSIBLE developer of foods for all animals
+                    especially those in captivity.
                   </li>
                   <li>
-                    Use scientific methodology to reduce the opportunity for
-                    error
+                    We offer our foods in the highest of all quality and safety
+                    standards “HUMAN KOSHER”. (link)​
                   </li>
                   <li>
-                    Publish the results of our work in scientific journals and
-                    offer our work for peer review
+                    We will always endeavor to IMPROVE our products when
+                    possible.​
                   </li>
                   <li>
-                    Improve overall nutrition management through long term field
-                    testing and follow-up
+                    We will NEVER sell any product below our quality standards.​
+                  </li>
+                  <li>
+                    We will use INNOVATION to improve the relationship between
+                    humans and animals. (link Innovation) ​
                   </li>
                   <li>
                     Develop formulae in a rational manner with the goal of
                     producing a minimum number of products that feed the maximum
-                    number of animals
+                    number of animals. (link + piece of history) ​
                   </li>
                   <li>
-                    Develop not only efficacious foods, but food products that
-                    reduce opportunity for feeding error, reduce delivery costs,
-                    and eliminate redundant handling wherever possible
-                  </li>
-                  <li>
-                    Achieve the highest quality levels supported by documented
-                    quality control programs that not only prevent errors in
-                    product integrity but allow near instantaneous corrective
-                    actions
-                  </li>
-                  <li>
-                    Simplify foods and feeding protocols to eliminate error and
-                    increase reliability of long term feeding programs
-                  </li>
-                  <li>
-                    Reduce the cost of manufacturing, storage, and delivery
-                    while achieving unparalleled quality levels
-                  </li>
-                  <li>
-                    Minimize the number of formulae, ingredients and physical
-                    properties of our foods except where justifiable differences
-                    make measurable and demonstrable improvements in health,
-                    acceptance or palatability
-                  </li>
-                  <li>
-                    Recognize that these precious creatures we feed are here for
-                    us to enjoy the way God intended and with proper care will
-                    be here for all future generations
+                    Promote conservation and propagation of rare and endangered
+                    species of animals both in captivity and in the wild. (link
+                    possibly treats + supplements + training)
                   </li>
                 </ul>
 
-                <p>
-                  Without these goals, the role of nutrition management in
-                  preserving rare and endangered species for future generations
-                  will not counteract the destruction of habitat, abuse, illegal
-                  poaching, environmental chaos, and poor health care of
-                  institutionalized animals that has led to the WWF endangered
-                  species list.
-                </p>
+                <h3>Our Goals</h3>
+                <ul>
+                  <li>
+                    Set the best example of our Mission so that all precious
+                    animals are here for us to enjoy the way our Creator
+                    intended and with proper care will be here for future
+                    generations​
+                  </li>
+                  <li>
+                    The role of nutrition and food safety management in
+                    preserving rare and endangered species for future
+                    generations will not counteract the destruction of habitat,
+                    abuse, poaching, environmental chaos, and poor health care
+                    of institutionalized animals that has led to the WWF
+                    endangered species list.​
+                  </li>
+                </ul>
               </div>
             </div>
           </div>

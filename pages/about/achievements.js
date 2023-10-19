@@ -39,16 +39,15 @@ export default function Achievements() {
                       Panda cubs been born in captivity and survived outside the
                       breeding compounds of China. Marion Zoological
                       congratulates the exceptionally skilled staff at the San
-                      Diego Zoo and share in their success!
+                      Diego Zoo and share in their success!​
                     </p>
-
                     <p className="mb-8 lg:mb-0">
                       Since 1985, Marion Zoological has provided foods for the
                       breeding, enrichment and supplementation needs of over 200
                       species of rare and endangered animals. Our success with
                       primates, reptiles, and birds are recognized by
                       authoritative publications, numerous rehabilitative
-                      organizations and international veterinary schools.
+                      organizations and international veterinary schools.​
                     </p>
                   </div>
                   <figure className="sm:w-1/3 lg:w-full xl:w-1/3">

@@ -78,6 +78,7 @@ const CompanyNav = ({ active }) => {
       active={active}
       links={[
         { title: 'About Us', href: '/about' },
+        { title: 'Our Journey', href: '/about/journey' },
         { title: 'Mission', href: '/about/mission' },
         { title: 'Achievements', href: '/about/achievements' },
         { title: 'Testimonials', href: '/about/testimonials' },

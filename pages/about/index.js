@@ -30,23 +30,39 @@ export default function About() {
               <div className="lg:col-span-9">
                 <h1>About Us</h1>
                 <p>
-                  Marion Zoological is a world-class provider of foods for rare
+                  Marion Zoological is a world class provider of foods for rare
                   and endangered animals and specialty pets. From the smallest
-                  birds, tortoise, primate, and even the Giant Panda, our foods
-                  have improved life spans, disease resitance, and increased
-                  birthrates. Since 2003, our foods were used to increase the
-                  birthrate of the Giant Panda from 0 live births to over 700 in
-                  2022.
+                  birds, tortoise, primate and even the Giant Panda our foods
+                  have improved life spans, disease resistance, and increased
+                  birthrates. Since 2003 our foods were used to increase the
+                  birthrate of the Giant Panda from 0 live births a year to over
+                  700 in 2022.
                 </p>
+                <p>
+                  Always known for its innovations, Marion Zoological has
+                  changed the way many animals are fed. Birds on seed diets not
+                  only thrive but have entertaining foods they can soak in water
+                  before consumed. Primates have delicious smelling and tasting
+                  food just like humans. Tortoise have tasty high fiber and high
+                  energy foods to prepare for hibernation. Other animals eat
+                  better, live longer, propagate, and look healthier. Exotic
+                  pets also have brighter coats, stronger bones stronger muscle
+                  mass and brighter feather colors.
+                </p>
+
+                <p>
+                  Marion Zoological foods can be used for training, life
+                  maintenance, weaning juveniles, and propagating. They can also
+                  provide desirable nutrition for stressful times in any life
+                  cycle like birth, illness, or injury.
+                </p>
+
                 <p className="mb-8">
-                  By addressing these areas, Marion Zoological has become a
-                  world class provider of foods for approximately two hundred
-                  rare and endangered species of animals. Marion Zoological
-                  delivers its life-enriching foods worldwide to leading
-                  zoological institutions, private and wild animal collections,
-                  and the exotic pet industry. This success is based upon the
-                  exceptional cooperation of its partners, customers, and
-                  suppliers.
+                  Marion Zoological delivers its life-enriching foods worldwide
+                  to leading zoological institutions, private collections,
+                  animal game farms, and the exotic pet industry. Our success is
+                  based upon the exceptional cooperation of its employees,
+                  partners, customers, and suppliers.
                 </p>
 
                 <div className="h-1 border-b border-brown mb-8"></div>

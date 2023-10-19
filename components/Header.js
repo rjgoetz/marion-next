@@ -84,6 +84,11 @@ export default function Header() {
                   </Link>
                 </li>
                 <li>
+                  <Link href="/about/journey">
+                    <a className="block">Our Journey</a>
+                  </Link>
+                </li>
+                <li>
                   <Link href="/about/mission">
                     <a className="block">Mission</a>
                   </Link>

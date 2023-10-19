@@ -63,20 +63,26 @@ export default function Scenic() {
                 <ul className="mb-8">
                   <li>
                     Formulas are based upon published scientific research and
-                    the judgment of qualified professionals
+                    the judgment of qualified professionals​​.
                   </li>
                   <li>
-                    Ingredients are selected based upon AAFCO specifications
+                    Human Grade and Kosher Ingredients selected. The ingredients
+                    also meet AAFCO specifications. ​
                   </li>
                   <li>
-                    Manufacturing is performed by companies that maintain
-                    certifications in GMP
+                    Manufacturing is performed by Human Grade and Kosher
+                    Certified Facilities that maintain certifications in global
+                    food quality, safety and responsibility in GMP's.
+                  </li>
+                  <li>
+                    Including Special Certification requirements:​ Organic,
+                    Kosher, Halal, Non-FMO, Gluten Free, Allergen-Free, Vegan.​
                   </li>
                   <li>
                     Quality control is achieved through rigorous and relentless
-                    review and testing of ingredients and final products
+                    review and testing of ingredients and final products.
                   </li>
-                  <li>Long shelf life and easy to store</li>
+                  <li>Long shelf life and easy to store.</li>
                 </ul>
 
                 <div className="flex flex-col items-center gap-8 sm:flex-row sm:justify-center md:gap-16 lg:gap-8 xl:gap-16">
