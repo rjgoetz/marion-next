@@ -16,6 +16,7 @@ export default function Home() {
             width={730}
             height={211}
             layout="responsive"
+            priority={true}
           ></Image>
         </div>
 

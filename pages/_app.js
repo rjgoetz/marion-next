@@ -24,8 +24,10 @@ function MyApp({ Component, pageProps }) {
       <Script
         id="signupScript"
         src="//static.ctctcdn.com/js/signup-form-widget/current/signup-form-widget.min.js"
-        async
-        defer
+        startegy="afterInteractive"
+        onLoad={() =>
+          console.log(`script loaded correctly, signup form has been populated`)
+        }
       ></Script>
       {/* End Constant Contact Active Forms */}
     </div>

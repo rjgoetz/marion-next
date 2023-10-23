@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import Layout from '../components/Layout';
 
-export default function Home() {
+export default function Newsletter() {
   return (
     <div>
       <Head>
@@ -16,13 +16,14 @@ export default function Home() {
             width={730}
             height={211}
             layout="responsive"
+            priority={true}
           ></Image>
         </div>
 
         <article>
           <div className="container">
             <div className="lg:flex lg:gap-8">
-              <div className="lg:w-full lg:pt-12">
+              <div className="lg:w-2/3 lg:pt-12">
                 {/*<!-- Begin Constant Contact Inline Form Code --> */}
                 <div
                   className="ctct-inline-form"
