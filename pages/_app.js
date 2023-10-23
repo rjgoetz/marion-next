@@ -10,12 +10,6 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      {/* <!-- Begin Constant Contact Inline Form Code --> */}
-      <div
-        className="ctct-inline-form"
-        data-form-id="d34a5be7-c8f1-4092-b4fa-5710167f24d1"
-      ></div>
-      {/* <!-- End Constant Contact Inline Form Code --> */}
       <Component {...pageProps} />
       <Script src="https://www.googletagmanager.com/gtag/js?id=G-PG0NQC3BBN"></Script>
       <Script id="google-tag-manager" strategy="afterInteractive">
