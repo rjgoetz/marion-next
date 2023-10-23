@@ -10,8 +10,13 @@ export default function Footer() {
           <nav className="lg:inline-block">
             <ul className="list-none pl-0 leading-loose text-sm lg:mb-0">
               <li className="inline-block mr-6 lg:mr-8">
+                <Link href="/newsletter">
+                  <a>Newsletter</a>
+                </Link>
+              </li>
+              <li className="inline-block mr-6 lg:mr-8">
                 <Link href="/about">
-                  <a>Contact Us</a>
+                  <a>About Us</a>
                 </Link>
               </li>
               <li className="inline-block mr-6 lg:mr-8">
@@ -19,14 +24,9 @@ export default function Footer() {
                   <a>Terms of Use</a>
                 </Link>
               </li>
-              <li className="inline-block mr-6 lg:mr-8">
+              <li className="inline-block mr-6 lg:mr-0">
                 <Link href="/legal/privacy">
                   <a>Privacy Policy</a>
-                </Link>
-              </li>
-              <li className="inline-block mr-6 lg:mr-0">
-                <Link href="/legal/jobs">
-                  <a>Jobs</a>
                 </Link>
               </li>
             </ul>

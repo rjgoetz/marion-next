@@ -91,9 +91,6 @@ export default function About() {
                     </a>
                   </div>
                 </div>
-                {/* Begin Constant Contact Inline Form Code */}
-                <div className="ctct-inline-form" data-form-id=""></div>
-                {/* <!-- End Constant Contact Inline Form Code --> */}
               </div>
             </div>
           </div>

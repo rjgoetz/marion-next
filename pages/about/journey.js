@@ -43,31 +43,6 @@ export default function About() {
                 </p>
 
                 <div className="h-1 border-b border-brown mb-8"></div>
-
-                <h3 className="mb-2">Contact Information</h3>
-                <div className="sm:flex">
-                  <div className="mb-4 sm:w-1/2">
-                    <p className="font-normal mb-0">Marion Zoological</p>
-                    <address className="not-italic">
-                      14149 21st Ave N{' '}
-                      <span className="block">Plymouth, MN 55447</span>U.S.A.
-                    </address>
-                  </div>
-                  <div className="sm:w-1/2">
-                    <p className="font-normal mb-0">Phone</p>
-                    <p>
-                      T:(763) 559-3305
-                      <span className="block">F:(763) 559-0789</span>
-                      <span className="block">U.S.A., Canada, Caribbean</span>
-                      T:(800) 327-7974
-                    </p>
-
-                    <p className="font-normal mb-0">Email</p>
-                    <a href="mailto:sales@marionzoological.com">
-                      sales@marionzoological.com
-                    </a>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
