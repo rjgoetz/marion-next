@@ -30,10 +30,12 @@ export default function Scenic() {
               </div>
 
               <div className="lg:col-span-9">
-                <h1>Scenic Bird Foods</h1>
+                <h1>
+                  Scenic<sup className="text-lg">&reg;</sup> Bird Foods
+                </h1>
                 <p>
-                  Scenic&trade; Bird Food is a complete formulated diet for
-                  exotic hookbill and softbill birds such as macaws, cockatoos,
+                  Scenic Bird Food is a complete formulated diet for exotic
+                  hookbill and softbill birds such as macaws, cockatoos,
                   parrots, lories, budgies, mynahs, toucans, and finches. Scenic
                   Bird Food has improved the feeding protocols, nutrition,
                   health, and reproduction of rare and endangered birds

@@ -43,7 +43,7 @@ const MiddleNav = ({ title, active, links, children }) => {
                   className={`${
                     link.title === active
                       ? 'text-green'
-                      : 'font-light text-brown hover:text-black'
+                      : 'font-normal text-brown hover:text-black'
                   }`}
                 >
                   {link.title}

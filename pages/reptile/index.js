@@ -29,7 +29,10 @@ export default function Reptile() {
               </div>
 
               <div className="lg:col-span-9">
-                <h1>Mozaic Reptile Foods</h1>
+                <h1>
+                  Mozaic
+                  <sup className="text-lg">&reg;</sup> Reptile Foods
+                </h1>
                 <p>
                   Mozaic Reptile Food is a complete formulated diet for
                   omnivorous and herbivorous reptiles, such as iguanas, bearded

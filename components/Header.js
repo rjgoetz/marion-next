@@ -11,7 +11,7 @@ export default function Header() {
 
   return (
     <header className="top-nav relative flex justify-between">
-      <div className="p-3 w-5/6 flex items-center sm:px-8 sm:py-6 md:w-9/12 lg:w-6/12">
+      <div className="p-3 w-5/6 flex items-center sm:px-8 sm:py-6 md:w-9/12 lg:w-6/12 2xl:px-0">
         <Link href="/">
           <a>
             <Image
@@ -75,9 +75,9 @@ export default function Header() {
           </div>
 
           <ul className="list-none pl-0 lg:flex lg:mb-0">
-            <li className="font-normal lg:inline-block lg:bg-white lg:w-1/3 lg:pt-12 lg:px-4 lg:text-center lg:max-h-28 lg:cursor-pointer lg:overflow-hidden lg:transition-height lg:duration-500 lg:hover:max-h-80">
+            <li className="font-semibold text-lg lg:inline-block lg:bg-white lg:w-1/3 lg:pt-12 lg:px-4 lg:text-center lg:max-h-28 lg:cursor-pointer lg:overflow-hidden lg:transition-height lg:duration-500 lg:hover:max-h-80">
               Company
-              <ul className="sub-nav list-none text-sm pl-2 lg:pl-0 lg:text-left lg:mt-12">
+              <ul className="sub-nav list-none text-base pl-2 lg:pl-0 lg:text-left lg:mt-12">
                 <li>
                   <Link href="/about">
                     <a className="block">About Us</a>
@@ -111,9 +111,9 @@ export default function Header() {
               </ul>
             </li>
 
-            <li className="font-normal lg:inline-block lg:bg-white lg:w-1/3 lg:pt-12 lg:px-4 lg:text-center lg:max-h-28 lg:cursor-pointer lg:overflow-hidden lg:transition-height lg:duration-500 lg:hover:max-h-80">
+            <li className="font-semibold text-lg lg:inline-block lg:bg-white lg:w-1/3 lg:pt-12 lg:px-4 lg:text-center lg:max-h-28 lg:cursor-pointer lg:overflow-hidden lg:transition-height lg:duration-500 lg:hover:max-h-80">
               Foods
-              <ul className="sub-nav list-none text-sm pl-2 lg:pl-0 lg:mt-12 lg:text-left">
+              <ul className="sub-nav list-none text-base pl-2 lg:pl-0 lg:mt-12 lg:text-left">
                 <li>
                   <Link href="/leaf-eater">
                     <a className="block">Leaf Eater</a>
@@ -137,9 +137,9 @@ export default function Header() {
               </ul>
             </li>
 
-            <li className="font-normal lg:inline-block lg:bg-white lg:w-1/3 lg:pt-12 lg:px-4 lg:text-center lg:cursor-pointer lg:max-h-28 lg:cursor-pointer lg:overflow-hidden lg:transition-height lg:duration-500 lg:hover:max-h-80">
+            <li className="font-semibold text-lg lg:inline-block lg:bg-white lg:w-1/3 lg:pt-12 lg:px-4 lg:text-center lg:cursor-pointer lg:max-h-28 lg:cursor-pointer lg:overflow-hidden lg:transition-height lg:duration-500 lg:hover:max-h-80">
               Resources
-              <ul className="sub-nav list-none text-sm pl-2 lg:pl-0 lg:mt-12 lg:text-left">
+              <ul className="sub-nav list-none text-base pl-2 lg:pl-0 lg:mt-12 lg:text-left">
                 <li>
                   <Link href="/literature">
                     <a className="block">Literature</a>

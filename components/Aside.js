@@ -16,9 +16,7 @@ export default function Aside() {
 
         <h4>News</h4>
         <div className="mb-8 text-sm">
-          <p className="text-brown font-semibold mb-0">
-            AAZV 55th Annual Conference
-          </p>
+          <p className="font-semibold mb-0">AAZV 55th Annual Conference</p>
           <p className="italic">September 15-22, 2023 in Nashville, TN</p>
           <p>
             Marion Zoological will be attending the AAZV conference this year in
@@ -27,20 +25,18 @@ export default function Aside() {
           </p>
         </div>
 
+        <p>
+          <a href="/newsletter" className="text-base">
+            Join Our <span className="block">Email Newsletter{' >>'}</span>
+          </a>
+        </p>
+
         <div className="flex justify-center mb-8">
           <Image
             src="/images/approved.png"
             width={169}
             height={169}
             alt="Zoo Approved Since 1985"
-          ></Image>
-        </div>
-        <div className="flex justify-center">
-          <Image
-            src="/images/Marion-Kosher-568.png"
-            width={112}
-            height={140}
-            alt="Marion Zoological Kosher Certification"
           ></Image>
         </div>
       </div>

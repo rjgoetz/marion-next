@@ -6,15 +6,15 @@
   html,
   body {
     @apply font-sans leading-relaxed font-light text-black;
-    font-size: 17px;
+    font-size: 19px;
   }
 
   h1 {
-    @apply font-serif text-green text-4xl font-normal mb-8;
+    @apply font-serif text-green text-4xl font-semibold mb-8;
   }
 
   h2 {
-    @apply text-xl text-green font-normal mb-2;
+    @apply text-2xl text-green font-semibold mb-2;
   }
 
   div.ctct-form-defaults {
@@ -26,11 +26,11 @@
   }
 
   h3 {
-    @apply font-normal text-green text-lg mb-2;
+    @apply font-semibold leading-normal text-green text-lg mb-2;
   }
 
   h4 {
-    @apply font-normal;
+    @apply font-semibold;
   }
 
   p {
@@ -55,11 +55,11 @@
   }
 
   a {
-    @apply font-normal text-green transition-colors duration-300 hover:text-green-dark focus:outline-green;
+    @apply font-semibold text-green transition-colors duration-300 hover:text-green-dark focus:outline-green;
   }
 
   aside h4 {
-    @apply text-brown text-base border-b border-brown mb-4 font-normal;
+    @apply border-b border-brown mb-4;
   }
 
   button {
