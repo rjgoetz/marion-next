@@ -22,8 +22,8 @@ export default function Newsletter() {
 
         <article>
           <div className="container">
-            <div className="lg:flex lg:gap-8">
-              <div className="lg:w-2/3 lg:pt-12">
+            <div className="lg:flex">
+              <div className="lg:w-2/3">
                 {/*<!-- Begin Constant Contact Inline Form Code --> */}
                 <div
                   className="ctct-inline-form"
