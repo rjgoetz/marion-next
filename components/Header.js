@@ -11,7 +11,7 @@ export default function Header() {
 
   return (
     <header className="top-nav relative flex justify-between">
-      <div className="p-3 w-5/6 flex items-center sm:px-8 sm:py-6 md:w-9/12 lg:w-6/12 2xl:px-0">
+      <div className="p-3 w-5/6 flex items-center sm:px-8 sm:py-6 md:w-9/12 lg:w-6/12">
         <Link href="/">
           <a>
             <Image

@@ -22,7 +22,7 @@ export default function Home() {
         </div>
 
         <article>
-          <div className="container 2xl:px-0">
+          <div className="container">
             <div className="xl:flex xl:gap-12 mb-16 items-center">
               <div className="xl:w-2/3">
                 <h1>
