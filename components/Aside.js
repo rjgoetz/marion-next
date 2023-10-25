@@ -25,12 +25,6 @@ export default function Aside() {
           </p>
         </div>
 
-        <p>
-          <a href="/newsletter" className="text-base">
-            Join Our <span className="block">Email Newsletter{' >>'}</span>
-          </a>
-        </p>
-
         <div className="flex justify-center mb-8">
           <Image
             src="/images/approved.png"
@@ -39,6 +33,15 @@ export default function Aside() {
             alt="Zoo Approved Since 1985"
           ></Image>
         </div>
+
+        <p className="text-center">
+          <a
+            href="/newsletter"
+            className="px-2 py-1 block w-full rounded bg-brown text-white text-sm hover:text-beige"
+          >
+            Join Our Email Newsletter
+          </a>
+        </p>
       </div>
     </aside>
   );
