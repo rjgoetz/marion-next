@@ -48,7 +48,7 @@ export default function Paradise() {
               </div>
 
               <div className="lg:col-span-9">
-                <h1>Scenic Jungle Food</h1>
+                <h1>Scenic Paradise Food</h1>
                 <figure className="mb-8">
                   <Image
                     src="/images/paradise-banner.jpg"
