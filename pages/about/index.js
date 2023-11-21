@@ -70,7 +70,7 @@ export default function About() {
                 <h3 className="mb-2">Contact Information</h3>
                 <div className="sm:flex">
                   <div className="mb-4 sm:w-1/2">
-                    <p className="font-normal mb-0">Marion Zoological</p>
+                    <p className="font-normal mb-0">Marion Natural Foods</p>
                     <address className="not-italic">
                       14149 21st Ave N{' '}
                       <span className="block">Plymouth, MN 55447</span>U.S.A.
@@ -86,8 +86,8 @@ export default function About() {
                     </p>
 
                     <p className="font-normal mb-0">Email</p>
-                    <a href="mailto:sales@marionzoological.com">
-                      sales@marionzoological.com
+                    <a href="mailto:sales@marionnaturalfoods.com">
+                      sales@marionnaturalfoods.com
                     </a>
                   </div>
                 </div>
