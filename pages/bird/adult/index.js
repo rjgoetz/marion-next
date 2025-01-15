@@ -8,7 +8,9 @@ export default function ScenicAdult() {
   return (
     <div>
       <Head>
-        <title>Adult Birds - Scenic Bird Food | Marion Zoological</title>
+        <title>
+          Premium Parrot Food - Scenic Bird Food | Marion Zoological
+        </title>
       </Head>
 
       <Layout>
@@ -44,23 +46,25 @@ export default function ScenicAdult() {
                   }}
                 >
                   <p>
-                    Best for large and medium-sized birds that like to eat with
-                    their feet. Individual and mixed flavors.
+                    Best for large and medium-sized parrots like Macaws,
+                    Cockatoos, and Amazon parrots that like to eat with their
+                    feet. Individual and mixed flavors.
                   </p>
                 </BirdCategory>
 
                 <BirdCategory
                   link="/bird/adult/paradise"
                   title="Paradise"
-                  subtitle="Parrots, Macaws, Cockatoos"
+                  subtitle="Conures, Eclectus, Caiques"
                   image={{
-                    src: '/images/paradise.jpg',
-                    alt: 'Amazon with Scenic Paradise Food',
+                    src: '/images/conure-mix-paradise.jpg',
+                    alt: 'Conure with Scenic Paradise Food',
                   }}
                 >
                   <p>
-                    Great for large and medium-sized birds that like to eat with
-                    their beaks. Individual and mixed flavors.
+                    Great for large and medium-sized birds like Conures and
+                    Toucans that prefer to eat with their beaks. Individual and
+                    mixed flavors.
                   </p>
                 </BirdCategory>
 
@@ -82,15 +86,15 @@ export default function ScenicAdult() {
                 <BirdCategory
                   link="/bird/adult/allprem"
                   title="Allprem"
-                  subtitle="Parakeet Food"
+                  subtitle="Canary and Finch Food"
                   image={{
-                    src: '/images/allprem.jpg',
-                    alt: 'Parakeet with Allprem Food',
+                    src: '/images/finch_food-presentation.jpg',
+                    alt: 'Finch with Allprem Food',
                   }}
                 >
                   <p>
                     A flavorful mix of apple and corn morsels for improved
-                    health of Parakeets and other small hookbills.
+                    health of Canaries, Finches, and other songbirds.
                   </p>
                 </BirdCategory>
 

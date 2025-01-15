@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
+import Link from 'next/link';
 import Layout from '../../../components/Layout';
 import PDFLink from '../../../components/PDFLink';
 import { BirdNav, AdultBirdNav } from '../../../components/MiddleNav';
@@ -8,17 +9,20 @@ export default function Lory() {
   return (
     <div>
       <Head>
-        <title>Lory Food - Scenic Bird Food | Marion Zoological</title>
+        <title>
+          Lory Food for Lories, Lorikeets - Pellets and Dry Powder - Scenic Bird
+          Food | Marion Zoological
+        </title>
       </Head>
 
       <Layout>
         <div className="lg:mb-16">
           <Image
-            src="/images/banner-macaws.jpg"
+            src="/images/banner-lory.jpg"
             width={730}
             height={211}
             layout="responsive"
-            alt="scarlet macaws"
+            alt="lorikeet-banner"
           ></Image>
         </div>
 
@@ -42,12 +46,6 @@ export default function Lory() {
                           title="Fact Sheet"
                         ></PDFLink>
                       </li>
-                      <li className="mb-0 text-sm leading-loose">
-                        <PDFLink
-                          href="/docs/Catalog_Scenic_03-12.pdf"
-                          title="Catalog"
-                        ></PDFLink>
-                      </li>
                     </ul>
                   </AdultBirdNav>
                 </BirdNav>
@@ -55,15 +53,6 @@ export default function Lory() {
 
               <div className="lg:col-span-9">
                 <h1>Scenic Lory Food</h1>
-                <figure className="mb-8">
-                  <Image
-                    src="/images/lory-banner.jpg"
-                    alt="Lory Food Banner"
-                    width={567}
-                    height={297}
-                    layout="responsive"
-                  ></Image>
-                </figure>
 
                 <h2>Food Details</h2>
                 <div className="flex flex-col items-center mb-8 gap-8 sm:flex-row lg:gap-16">
@@ -258,6 +247,15 @@ export default function Lory() {
                     </table>
                   </div>
                 </div>
+
+                <h2>Where to Buy</h2>
+                <p className="mb-8">
+                  You can find Scenic Lory Food at our online store:{' '}
+                  <Link href="https://www.scenicbirdfood.com/collections/lory">
+                    <a target="_blank">www.ScenicBirdFood.com</a>
+                  </Link>
+                  .
+                </p>
               </div>
             </div>
           </div>

@@ -34,51 +34,51 @@ export default function Scenic() {
                   Scenic<sup className="text-lg">&reg;</sup> Bird Foods
                 </h1>
                 <p>
-                  Scenic Bird Food is a complete formulated diet for exotic
-                  hookbill and softbill birds such as macaws, cockatoos,
-                  parrots, lories, budgies, mynahs, toucans, and finches. Scenic
-                  Bird Food has improved the feeding protocols, nutrition,
-                  health, and reproduction of rare and endangered birds
-                  maintained in captivity throughout the world, including the
+                  Scenic Bird Food is a complete food for exotic hookbill and
+                  softbill birds, such as macaws, cockatoos, parrots, lories,
+                  budgies, mynahs, toucans, and finches. Scenic has improved the
+                  feeding protocols, nutrition, health, and reproduction of rare
+                  and endangered birds in captivity worldwide, including the
                   Black Palm Cockatoo (San Diego Zoo) and Buffon’s Macaw (Amigos
                   de las Aves).
                 </p>
 
                 <p>
-                  Available in a variety of shapes, flavors, and sizes, Scenic
-                  Bird Food can be fed to a myriad of different bird species at
-                  all stages of life. Choose{' '}
+                  Offered in various shapes, flavors, and sizes, bird owners can
+                  feed Scenic to many bird species at all stages of life. Choose{' '}
                   <Link href="/bird/juvenile/hand-weaning">
                     <a>Hand Weaning</a>
                   </Link>{' '}
-                  and{' '}
+                   and 
                   <Link href="/bird/juvenile/high-energy">
-                    <a>Hand Weaning</a>
+                    <a>Hand Feeding</a>
                   </Link>{' '}
-                  products for baby and juvenile birds or popular products like{' '}
+                   products for baby and juvenile birds or popular products
+                  like 
                   <Link href="/bird/adult/jungle">
-                    <a>Hand Weaning</a>
+                    <a>Jungle Food</a>
                   </Link>{' '}
-                  for larger hookbills like Macaws.
+                   for larger hookbills like Macaws.
                 </p>
 
                 <ul className="mb-8">
                   <li>
-                    Formulas are based upon published scientific research and
-                    the judgment of qualified professionals​​.
+                    Scenic formulas are based on published scientific research
+                    and the judgment of qualified professionals​​.
                   </li>
                   <li>
                     Human Grade and Kosher Ingredients selected. The ingredients
-                    also meet AAFCO specifications. ​
+                    also meet AAFCO specifications.
                   </li>
                   <li>
-                    Manufacturing is performed by Human Grade and Kosher
-                    Certified Facilities that maintain certifications in global
-                    food quality, safety and responsibility in GMP's.
+                    Manufacturing is performed by Human-Grade and
+                    Kosher-certified facilities that maintain certifications in
+                    global food quality, safety, and responsibility in GMPs.
                   </li>
                   <li>
-                    Including Special Certification requirements:​ Organic,
-                    Kosher, Halal, Non-FMO, Gluten Free, Allergen-Free, Vegan.​
+                    Our foods meet special certification requirements:​ Organic,
+                    Kosher, Halal, non-FMO, Gluten-Free, Allergen-Free, and
+                    Vegan.​
                   </li>
                   <li>
                     Quality control is achieved through rigorous and relentless
@@ -104,7 +104,7 @@ export default function Scenic() {
                     </figure>
                   </div>
 
-                  <div>
+                  <div className="mb-8">
                     <h2 className="text-center">Baby / Juvenile Bird Food</h2>
                     <figure>
                       <Link href="/bird/juvenile">
@@ -120,6 +120,14 @@ export default function Scenic() {
                     </figure>
                   </div>
                 </div>
+                <h2>Where to Buy</h2>
+                <p className="mb-8">
+                  You can find Scenic Bird Food at our online store:{' '}
+                  <Link href="https://www.scenicbirdfood.com/">
+                    <a target="_blank">www.ScenicBirdFood.com</a>
+                  </Link>
+                  .
+                </p>
               </div>
             </div>
           </div>

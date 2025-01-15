@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
+import Link from 'next/link';
 import Layout from '../../../components/Layout';
 import PDFLink from '../../../components/PDFLink';
 import { BirdNav, AdultBirdNav } from '../../../components/MiddleNav';
@@ -8,17 +9,20 @@ export default function Paradise() {
   return (
     <div>
       <Head>
-        <title>Paradise Food - Scenic Bird Food | Marion Zoological</title>
+        <title>
+          Paradise Food for Conure, Toucan, Eclectus Birds - Scenic Bird Food |
+          Marion Zoological
+        </title>
       </Head>
 
       <Layout>
         <div className="lg:mb-16">
           <Image
-            src="/images/banner-macaws.jpg"
+            src="/images/paradise-conure-banner-new.jpg"
             width={730}
             height={211}
             layout="responsive"
-            alt="scarlet macaws"
+            alt="sun conure banner"
           ></Image>
         </div>
 
@@ -36,12 +40,6 @@ export default function Paradise() {
                           title="Brochure"
                         ></PDFLink>
                       </li>
-                      <li className="mb-0 text-sm leading-loose">
-                        <PDFLink
-                          href="/docs/Catalog_Scenic_03-12.pdf"
-                          title="Catalog"
-                        ></PDFLink>
-                      </li>
                     </ul>
                   </AdultBirdNav>
                 </BirdNav>
@@ -49,15 +47,6 @@ export default function Paradise() {
 
               <div className="lg:col-span-9">
                 <h1>Scenic Paradise Food</h1>
-                <figure className="mb-8">
-                  <Image
-                    src="/images/paradise-banner.jpg"
-                    alt="Paradise Food Banner"
-                    width={567}
-                    height={297}
-                    layout="responsive"
-                  ></Image>
-                </figure>
 
                 <h2>Food Details</h2>
                 <div className="flex flex-col items-center mb-8 gap-8 sm:flex-row lg:gap-16">
@@ -65,8 +54,9 @@ export default function Paradise() {
                     <p className="mb-0">
                       Scenic&trade; Paradise Food is a round-shaped morsel about
                       ¼" diameter with a light crunchy texture. For large and
-                      medium-sized parrots like African Greys, Macaws, and
-                      Cockatoos that prefer to pick up food with their beak.
+                      medium-sized parrots like Conures, Toucans, Eclectus, and
+                      other medium-sized birds that prefer to pick up food with
+                      their beak.
                     </p>
                   </div>
                   <div className="w-1/2 sm:w-1/3 xl:w-1/4">
@@ -149,18 +139,6 @@ export default function Paradise() {
                       <figcaption>SKU# CP B25</figcaption>
                     </figure>
                   </div>
-                  <div className="w-2/3 sm:w-1/4">
-                    <h4 className="text-center mb-2">Chili</h4>
-                    <figure>
-                      <Image
-                        src="/images/chili-paradise.jpg"
-                        alt="Chili Paradise Food"
-                        width={400}
-                        height={406}
-                      ></Image>
-                      <figcaption>SKU# CHSP B25</figcaption>
-                    </figure>
-                  </div>
 
                   <div className="w-2/3 sm:w-1/4">
                     <h4 className="text-center mb-2">Apple</h4>
@@ -183,11 +161,10 @@ export default function Paradise() {
                   meal, soybean oil, zinc sulfate, flaxseed oil, dicalcium
                   phosphate, niacin supplement, apple fiber, manganese sulfate,
                   ferrous sulfate, calcium carbonate, calcium pantothenate,
-                  sodium chloride, red chili pepper (mix and chili products),
-                  L-lysine, copper sulfate, riboflavin supplement, thiamin
-                  mononitrate, cobalt oxide, folic acid,
+                  sodium chloride, L-lysine, copper sulfate, riboflavin
+                  supplement, thiamin mononitrate, cobalt oxide, folic acid,
                   l-ascorbyl-2-polyphosphate (source of vitamin C), natural and
-                  artificial color (mix, chili, and apple products), pyridoxine
+                  artificial color (mix and apple products), pyridoxine
                   hydrochloride, choline chloride, ethylenediamine dihydriodide,
                   d-biotin, sodium selenite, vitamin B-12 supplement, vitamin A
                   supplement, vitamin D-3 supplement, vitamin E supplement.
@@ -268,6 +245,15 @@ export default function Paradise() {
                     </table>
                   </div>
                 </div>
+
+                <h2>Where to Buy</h2>
+                <p className="mb-8">
+                  You can find Scenic Paradise Food at our online store:{' '}
+                  <Link href="https://www.scenicbirdfood.com/collections/paradise">
+                    <a target="_blank">www.ScenicBirdFood.com</a>
+                  </Link>
+                  .
+                </p>
               </div>
             </div>
           </div>

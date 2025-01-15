@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
+import Link from 'next/link';
 import Layout from '../../components/Layout';
 import { ReptileNav } from '../../components/MiddleNav';
 
@@ -65,7 +66,7 @@ export default function Reptile() {
                   accommodate varying feeding protocols.
                 </p>
 
-                <div className="flex flex-col items-center gap-8 sm:flex-row sm:justify-center md:gap-16 lg:gap-8 xl:gap-16">
+                <div className="flex flex-col items-center gap-8 mb-8  sm:flex-row sm:justify-center md:gap-16 lg:gap-8 xl:gap-16">
                   <div className="w-3/4 md:w-1/3">
                     <h4 className="text-center mb-2">Tortoise</h4>
                     <figure>
@@ -102,6 +103,14 @@ export default function Reptile() {
                     </figure>
                   </div>
                 </div>
+                <h2>Where to Buy</h2>
+                <p className="mb-8">
+                  You can find Mozaic Reptile Food at our online store:{' '}
+                  <Link href="https://www.mozaicreptilefood.com/">
+                    <a target="_blank">www.MozaicReptileFood.com</a>
+                  </Link>
+                  .
+                </p>
               </div>
             </div>
           </div>

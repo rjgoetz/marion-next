@@ -8,17 +8,20 @@ export default function ScenicJuvenile() {
   return (
     <div>
       <Head>
-        <title>Juvenile Birds - Scenic Bird Food | Marion Zoological</title>
+        <title>
+          Juvenile Bird Foods - Hand Weaning - Scenic Bird Food | Marion
+          Zoological
+        </title>
       </Head>
 
       <Layout>
         <div className="lg:mb-16">
           <Image
-            src="/images/banner-macaws.jpg"
+            src="/images/banner-hand-weaning.jpg"
             width={730}
             height={211}
             layout="responsive"
-            alt="scarlet macaws"
+            alt="hand weaning baby parrot"
           ></Image>
         </div>
 

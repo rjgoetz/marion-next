@@ -9,18 +9,19 @@ export default function HighEnergy() {
     <div>
       <Head>
         <title>
-          High Energy Hand Feeding - Scenic Bird Food | Marion Zoological
+          High Energy Hand Feeding for Juvenile Parrots - Scenic Bird Food |
+          Marion Zoological
         </title>
       </Head>
 
       <Layout>
         <div className="lg:mb-16">
           <Image
-            src="/images/banner-macaws.jpg"
+            src="/images/banner-baby-macaws.jpg"
             width={730}
             height={211}
             layout="responsive"
-            alt="scarlet macaws"
+            alt="baby macaws"
           ></Image>
         </div>
 
@@ -51,15 +52,6 @@ export default function HighEnergy() {
 
               <div className="lg:col-span-9">
                 <h1>Scenic High Energy Hand Feeding</h1>
-                <figure className="mb-8">
-                  <Image
-                    src="/images/hand-feeding-banner.jpg"
-                    alt="Hand Feeding Food Banner"
-                    width={567}
-                    height={297}
-                    layout="responsive"
-                  ></Image>
-                </figure>
 
                 <h2>Food Details</h2>
                 <div className="flex flex-col items-center mb-8 gap-8 sm:flex-row lg:gap-16">

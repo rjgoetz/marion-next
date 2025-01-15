@@ -1,24 +1,27 @@
 import Head from 'next/head';
 import Image from 'next/image';
+import Link from 'next/link';
 import Layout from '../../../components/Layout';
-import PDFLink from '../../../components/PDFLink';
 import { BirdNav, AdultBirdNav } from '../../../components/MiddleNav';
 
 export default function Allprem() {
   return (
     <div>
       <Head>
-        <title>Allprem Food - Scenic Bird Food | Marion Zoological</title>
+        <title>
+          Allprem Food for Canaries, Finches, and Songbirds - Scenic Bird Food |
+          Marion Zoological
+        </title>
       </Head>
 
       <Layout>
         <div className="lg:mb-16">
           <Image
-            src="/images/banner-macaws.jpg"
+            src="/images/banner-finch.jpg"
             width={730}
             height={211}
             layout="responsive"
-            alt="scarlet macaws"
+            alt="gouldian finch banner"
           ></Image>
         </div>
 
@@ -27,31 +30,12 @@ export default function Allprem() {
             <div className="lg:grid lg:grid-cols-12 lg:gap-8 xl:gap-16">
               <div className="lg:col-span-3">
                 <BirdNav active="Adult Birds">
-                  <AdultBirdNav active="Allprem">
-                    <h4>Literature</h4>
-                    <ul className="pl-0 list-none leading-loose">
-                      <li className="mb-0 text-sm leading-loose">
-                        <PDFLink
-                          href="/docs/Catalog_Scenic_03-12.pdf"
-                          title="Catalog"
-                        ></PDFLink>
-                      </li>
-                    </ul>
-                  </AdultBirdNav>
+                  <AdultBirdNav active="Allprem"></AdultBirdNav>
                 </BirdNav>
               </div>
 
               <div className="lg:col-span-9">
                 <h1>Scenic Allprem</h1>
-                <figure className="mb-8">
-                  <Image
-                    src="/images/allprem-banner.jpg"
-                    alt="Allprem Food Banner"
-                    width={567}
-                    height={297}
-                    layout="responsive"
-                  ></Image>
-                </figure>
 
                 <h2>Food Details</h2>
                 <div className="flex flex-col items-center mb-8 gap-8 sm:flex-row lg:gap-16">
@@ -59,10 +43,10 @@ export default function Allprem() {
                     <p className="mb-0">
                       Scenic&trade; Allprem is a flavorful mix of small,
                       round-shaped apple and corn morsels about 3 mm in
-                      diameter. This food is perfect for small hookbills like
-                      Parakeets. Scientifically formulated and tested, it's the
-                      best fruit and vegetable <em>free-choice</em> feeding
-                      method.
+                      diameter. This food is perfect for small songbirds like
+                      Canaries and Finches. Scientifically formulated and
+                      tested, it's the best fruit and vegetable{' '}
+                      <em>free-choice</em> feeding method.
                     </p>
                   </div>
                   <div className="w-1/2 sm:w-1/3 xl:w-1/4">
@@ -230,6 +214,15 @@ export default function Allprem() {
                     </table>
                   </div>
                 </div>
+
+                <h2>Where to Buy</h2>
+                <p className="mb-8">
+                  You can find Scenic Allprem Food at our online store:{' '}
+                  <Link href="https://www.scenicbirdfood.com/collections/allprem-canary-finch">
+                    <a target="_blank">www.ScenicBirdFood.com</a>
+                  </Link>
+                  .
+                </p>
               </div>
             </div>
           </div>

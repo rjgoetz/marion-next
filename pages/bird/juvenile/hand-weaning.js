@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
+import Link from 'next/link';
 import Layout from '../../../components/Layout';
 import PDFLink from '../../../components/PDFLink';
 import { BirdNav, JuvenileBirdNav } from '../../../components/MiddleNav';
@@ -15,17 +16,19 @@ export default function HighEnergy() {
   return (
     <div>
       <Head>
-        <title>Hand Weaning - Scenic Bird Food | Marion Zoological</title>
+        <title>
+          Hand Weaning Food for Parrots - Scenic Bird Food | Marion Zoological
+        </title>
       </Head>
 
       <Layout>
         <div className="lg:mb-16">
           <Image
-            src="/images/banner-macaws.jpg"
+            src="/images/banner-hand-weaning.jpg"
             width={730}
             height={211}
             layout="responsive"
-            alt="scarlet macaws"
+            alt="hand weaning baby parrot"
           ></Image>
         </div>
 
@@ -55,16 +58,7 @@ export default function HighEnergy() {
               </div>
 
               <div className="lg:col-span-9">
-                <h1>Scenic High Energy Hand Feeding</h1>
-                <figure className="mb-8">
-                  <Image
-                    src="/images/hand-weaning-banner.jpg"
-                    alt="Hand Weaning Food Banner"
-                    width={567}
-                    height={297}
-                    layout="responsive"
-                  ></Image>
-                </figure>
+                <h1>Scenic Hand Weaning</h1>
 
                 <h2>Food Details</h2>
                 <div className="flex flex-col items-center mb-8 gap-8 sm:flex-row lg:gap-16">
@@ -151,7 +145,7 @@ export default function HighEnergy() {
                   </div>
                 </div>
 
-                <div className="border border-beige">
+                <div className="border border-beige mb-8">
                   <ul className="flex justify-between list-none pl-0">
                     <li
                       className={`text-center w-1/2 p-3 ${
@@ -369,6 +363,14 @@ export default function HighEnergy() {
                     )}
                   </div>
                 </div>
+                <h2>Where to Buy</h2>
+                <p className="mb-8">
+                  You can find Scenic Hand Weaning Food at our online store:{' '}
+                  <Link href="https://www.scenicbirdfood.com/collections/all-bird-food">
+                    <a target="_blank">www.ScenicBirdFood.com</a>
+                  </Link>
+                  .
+                </p>
               </div>
             </div>
           </div>

@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Image from 'next/image';
+import Link from 'next/link';
 import Layout from '../../../components/Layout';
-import PDFLink from '../../../components/PDFLink';
 import { BirdNav, AdultBirdNav } from '../../../components/MiddleNav';
 
 export default function HotNHealthy() {
@@ -9,18 +9,19 @@ export default function HotNHealthy() {
     <div>
       <Head>
         <title>
-          Hot &amp; Healthy Food - Scenic Bird Food | Marion Zoological
+          Hot &amp; Healthy Cockatiel, Parakeet, Lovebird Food - Scenic Bird
+          Food | Marion Zoological
         </title>
       </Head>
 
       <Layout>
         <div className="lg:mb-16">
           <Image
-            src="/images/banner-macaws.jpg"
+            src="/images/banner-cockatiel.jpg"
             width={730}
             height={211}
             layout="responsive"
-            alt="scarlet macaws"
+            alt="cockatiel banner"
           ></Image>
         </div>
 
@@ -29,37 +30,12 @@ export default function HotNHealthy() {
             <div className="lg:grid lg:grid-cols-12 lg:gap-8 xl:gap-16">
               <div className="lg:col-span-3">
                 <BirdNav active="Adult Birds">
-                  <AdultBirdNav active="Hot & Healthy">
-                    <h4>Literature</h4>
-                    <ul className="pl-0 list-none leading-loose">
-                      <li className="mb-0 text-sm leading-loose">
-                        <PDFLink
-                          href="/docs/HotHealthy_10-09.pdf"
-                          title="Brochure"
-                        ></PDFLink>
-                      </li>
-                      <li className="mb-0 text-sm leading-loose">
-                        <PDFLink
-                          href="/docs/Catalog_Scenic_03-12.pdf"
-                          title="Catalog"
-                        ></PDFLink>
-                      </li>
-                    </ul>
-                  </AdultBirdNav>
+                  <AdultBirdNav active="Hot & Healthy"></AdultBirdNav>
                 </BirdNav>
               </div>
 
               <div className="lg:col-span-9">
                 <h1>Scenic Hot &amp; Healthy</h1>
-                <figure className="mb-8">
-                  <Image
-                    src="/images/hot-healthy-banner.jpg"
-                    alt="Hot & Healthy Food Banner"
-                    width={567}
-                    height={297}
-                    layout="responsive"
-                  ></Image>
-                </figure>
 
                 <h2>Food Details</h2>
                 <div className="flex flex-col items-center mb-8 gap-8 sm:flex-row lg:gap-16">
@@ -69,8 +45,8 @@ export default function HotNHealthy() {
                       round-shaped morsel about 3 mm diameter with a light and
                       crunch texture similar to breakfast cereal. This
                       multi-flavored food is perfect for small hookbills like
-                      Cockatiels and Love Birds. Scientifically formulated and
-                      tested, it's the best fruit and vegetable{' '}
+                      Cockatiels, Parakeets, and Love Birds. Scientifically
+                      formulated and tested, it's the best fruit and vegetable{' '}
                       <em>free-choice</em> feeding method.
                     </p>
                   </div>
@@ -239,6 +215,15 @@ export default function HotNHealthy() {
                     </table>
                   </div>
                 </div>
+
+                <h2>Where to Buy</h2>
+                <p className="mb-8">
+                  You can find Scenic Hot & Healthy Food at our online store:{' '}
+                  <Link href="https://www.scenicbirdfood.com/collections/hot-healthy-cockatiel">
+                    <a target="_blank">www.ScenicBirdFood.com</a>
+                  </Link>
+                  .
+                </p>
               </div>
             </div>
           </div>

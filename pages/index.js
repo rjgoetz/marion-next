@@ -32,13 +32,13 @@ export default function Home() {
                 </h1>
                 <p>
                   Marion Zoological develops and distributes specialty
-                  life-enriching foods for exotic pets, and rare and endangered
+                  life-enriching foods for exotic pets and rare and endangered
                   zoo animals. Since 1985, these foods and innovative
                   manufacturing techniques have resulted in healthier animals
                   thanks to the work of many exceptional researchers,
                   scientists, and animal caregivers.​ Our foods provide
-                  exceptional health benefits while providing the utmost in
-                  manufacturing safety possible.
+                  exceptional health benefits while ensuring the utmost
+                  manufacturing safety.
                 </p>
               </div>
               <div className="text-center xl:w-1/3 xl:px-4 xl:items-center">
@@ -76,10 +76,10 @@ export default function Home() {
                   <p>
                     We have a choice and a higher duty to protect, enforce, and
                     provide for the animals in our care. Only the highest
-                    quality and safest food standards of Human- Grade and Kosher
-                    gives us this opportunity. These standards are what control
+                    quality and safest food standards, such as Human Grade and
+                    Kosher, give us this opportunity. These standards control
                     food sources, food additives, and processing conditions that
-                    are free from direct and cross contamination of allergens,
+                    are free from direct and cross-contamination of allergens,
                     pathogens, and toxins.
                   </p>
                 </div>
@@ -89,12 +89,12 @@ export default function Home() {
                     <span className="block">Quality and Innovation</span>
                   </h3>
                   <p>
-                    Our food not only exemplifies quality by its smell and high
-                    animal acceptance, but also by its ability to retain water
+                    Our food exemplifies quality not only by its smell and high
+                    animal acceptance but also by its ability to retain water
                     without falling apart and resist failure in moist,
-                    high-humidity outdoor applications. These food attributes
-                    lead to increased animal acceptance and food digestibility,
-                    feeding protocol flexibility, and lower food waste and cost.
+                    high-humidity outdoor applications. These attributes lead to
+                    increased animal acceptance and food digestibility, feeding
+                    protocol flexibility, and lower food waste and cost.
                   </p>
                 </div>
               </div>

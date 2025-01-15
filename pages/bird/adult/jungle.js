@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
+import Link from 'next/link';
 import Layout from '../../../components/Layout';
 import PDFLink from '../../../components/PDFLink';
 import { BirdNav, AdultBirdNav } from '../../../components/MiddleNav';
@@ -8,17 +9,20 @@ export default function Jungle() {
   return (
     <div>
       <Head>
-        <title>Jungle Food - Scenic Bird Food | Marion Zoological</title>
+        <title>
+          Jungle Food for Macaw, Cockatoo, Amazon, and other Large Parrots -
+          Scenic Bird Food | Marion Zoological
+        </title>
       </Head>
 
       <Layout>
         <div className="lg:mb-16">
           <Image
-            src="/images/banner-macaws.jpg"
+            src="/images/macaws-banner-new.jpg"
             width={730}
             height={211}
             layout="responsive"
-            alt="scarlet macaws"
+            alt="two macaw birds"
           ></Image>
         </div>
 
@@ -36,12 +40,6 @@ export default function Jungle() {
                           title="Brochure"
                         ></PDFLink>
                       </li>
-                      <li className="mb-0 text-sm leading-loose">
-                        <PDFLink
-                          href="/docs/Catalog_Scenic_03-12.pdf"
-                          title="Catalog"
-                        ></PDFLink>
-                      </li>
                     </ul>
                   </AdultBirdNav>
                 </BirdNav>
@@ -49,15 +47,6 @@ export default function Jungle() {
 
               <div className="lg:col-span-9">
                 <h1>Scenic Jungle Food</h1>
-                <figure className="mb-8">
-                  <Image
-                    src="/images/jungle-banner.jpg"
-                    alt="Jungle Food Banner"
-                    width={567}
-                    height={297}
-                    layout="responsive"
-                  ></Image>
-                </figure>
 
                 <h2>Food Details</h2>
                 <div className="flex flex-col items-center mb-8 gap-8 sm:flex-row lg:gap-16">
@@ -150,18 +139,6 @@ export default function Jungle() {
                       <figcaption>SKU# CJ B25</figcaption>
                     </figure>
                   </div>
-                  <div className="w-2/3 sm:w-1/4">
-                    <h4 className="text-center mb-2">Chili</h4>
-                    <figure>
-                      <Image
-                        src="/images/chili-jungle.jpg"
-                        alt="Chili Jungle Food"
-                        width={400}
-                        height={406}
-                      ></Image>
-                      <figcaption>SKU# CHSJ B25</figcaption>
-                    </figure>
-                  </div>
 
                   <div className="w-2/3 sm:w-1/4">
                     <h4 className="text-center mb-2">Apple</h4>
@@ -184,11 +161,10 @@ export default function Jungle() {
                   meal, soybean oil, zinc sulfate, flaxseed oil, dicalcium
                   phosphate, niacin supplement, apple fiber, manganese sulfate,
                   ferrous sulfate, calcium carbonate, calcium pantothenate,
-                  sodium chloride, red chili pepper (mix and chili products),
-                  L-lysine, copper sulfate, riboflavin supplement, thiamin
-                  mononitrate, cobalt oxide, folic acid,
+                  sodium chloride, L-lysine, copper sulfate, riboflavin
+                  supplement, thiamin mononitrate, cobalt oxide, folic acid,
                   l-ascorbyl-2-polyphosphate (source of vitamin C), natural and
-                  artificial color (mix, chili, and apple products), pyridoxine
+                  artificial color (mix and apple products), pyridoxine
                   hydrochloride, choline chloride, ethylenediamine dihydriodide,
                   d-biotin, sodium selenite, vitamin B-12 supplement, vitamin A
                   supplement, vitamin D-3 supplement, vitamin E supplement.
@@ -269,6 +245,15 @@ export default function Jungle() {
                     </table>
                   </div>
                 </div>
+
+                <h2>Where to Buy</h2>
+                <p className="mb-8">
+                  You can find Scenic Jungle Food at our online store:{' '}
+                  <Link href="https://www.scenicbirdfood.com/collections/jungle">
+                    <a target="_blank">www.ScenicBirdFood.com</a>
+                  </Link>
+                  .
+                </p>
               </div>
             </div>
           </div>
