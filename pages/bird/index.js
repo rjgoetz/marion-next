@@ -87,7 +87,7 @@ export default function Scenic() {
                   <li>Long shelf life and easy to store.</li>
                 </ul>
 
-                <div className="flex flex-col items-center gap-8 sm:flex-row sm:justify-center md:gap-16 lg:gap-8 xl:gap-16">
+                <div className="flex flex-col items-center gap-8 mb-8 sm:flex-row sm:justify-center md:gap-16 lg:gap-8 xl:gap-16">
                   <div>
                     <h2 className="text-center">Adult Bird Food</h2>
                     <figure>
@@ -104,7 +104,7 @@ export default function Scenic() {
                     </figure>
                   </div>
 
-                  <div className="mb-8">
+                  <div>
                     <h2 className="text-center">Baby / Juvenile Bird Food</h2>
                     <figure>
                       <Link href="/bird/juvenile">
