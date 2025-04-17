@@ -11,14 +11,20 @@ function MyApp({ Component, pageProps }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Component {...pageProps} />
-      <Script src="https://www.googletagmanager.com/gtag/js?id=G-PG0NQC3BBN"></Script>
-      <Script id="google-tag-manager" strategy="afterInteractive">
+
+      {/* Google tag (gtag.js) */}
+      <Script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-MW932W8N19"
+      ></Script>
+      <Script>
         {`window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-PG0NQC3BBN');`}
+  gtag('config', 'G-MW932W8N19');`}
       </Script>
+
       {/* Begin Constant Contact Active Forms */}
       <Script>{` var _ctct_m = "f79fde54d446da199e6fde480bbce4fd";`} </Script>
       <Script
