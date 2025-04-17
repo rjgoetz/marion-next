@@ -24,18 +24,6 @@ function MyApp({ Component, pageProps }) {
 
   gtag('config', 'G-MW932W8N19');`}
       </Script>
-
-      {/* Begin Constant Contact Active Forms */}
-      <Script>{` var _ctct_m = "f79fde54d446da199e6fde480bbce4fd";`} </Script>
-      <Script
-        id="signupScript"
-        src="//static.ctctcdn.com/js/signup-form-widget/current/signup-form-widget.min.js"
-        startegy="afterInteractive"
-        onLoad={() =>
-          console.log(`script loaded correctly, signup form has been populated`)
-        }
-      ></Script>
-      {/* End Constant Contact Active Forms */}
     </div>
   );
 }
